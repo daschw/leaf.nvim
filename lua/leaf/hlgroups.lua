@@ -1,7 +1,7 @@
 local M = {}
 
 --- generate highlights table
--- @param colors.yellow1lor (theme) color table created by require("kanagawa.colors").setup()
+-- @param colors.color (theme) color table created by require("leaf.colors").setup()
 -- @param config config options (optional)
 function M.setup(colors, config)
     config = vim.tbl_extend("force", require("leaf").config, config or {})

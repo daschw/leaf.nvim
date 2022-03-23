@@ -2,8 +2,8 @@
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
 
-![leaf-light](assets/screenshot_light)
-![leaf-dark](screenshot_dark)
+![leaf-light](assets/screenshot_light.png)
+![leaf-dark](screenshot_dark.png)
 
 ## Installation
 
