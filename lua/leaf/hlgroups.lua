@@ -15,7 +15,7 @@ function M.setup(colors, config)
         CursorIM = { link = "Cursor" },
         CursorLine = { bg = colors.bg_soft },
         CursorColumn = { link = "CursorLine" },
-        Directory = { fg = colors.green_hard },
+        Directory = { fg = colors.blue_hard },
         DiffAdd = { fg = "NONE", bg = colors.green_soft },
         DiffChange = { fg = "NONE", bg = colors.blue_soft },
         DiffDelete = { fg = "NONE", bg = colors.red_soft, style = "none" },
