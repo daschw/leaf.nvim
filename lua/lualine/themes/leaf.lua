@@ -3,9 +3,9 @@ local colors = require("leaf.colors").setup()
 local leaf = {}
 
 leaf.normal = {
-    a = { bg = colors.bg_dim, fg = colors.fg_normal },
-    b = { bg = colors.bg_soft, fg = colors.fg_soft },
-    c = { bg = colors.bg_normal, fg = colors.bg_dim },
+    a = { bg = colors.bg_dimmer, fg = colors.fg_normal },
+    b = { bg = colors.bg_dim, fg = colors.fg_dim },
+    c = { bg = colors.bg_normal, fg = colors.fg_dimmer },
 }
 
 leaf.insert = {
