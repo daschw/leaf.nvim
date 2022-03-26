@@ -7,13 +7,13 @@ function M.setup(colors, config)
     config = vim.tbl_extend("force", require("leaf").config, config or {})
 
     local hlgroups = {
-        Comment = { fg = colors.bg_dim, style = config.commentStyle },
-        ColorColumn = { fg = colors.bg_soft, bg = colors.bg_normal },
-        Conceal = { fg = colors.bg_soft, bg = "NONE", style = "bold" },
+        Comment = { fg = colors.fg_comment, style = config.commentStyle },
+        ColorColumn = { fg = colors.bg_dim, bg = colors.bg_normal },
+        Conceal = { fg = colors.bg_dim, bg = "NONE", style = "bold" },
         Cursor = { fg = colors.bg_normal, bg = colors.fg_normal },
         lCursor = { link = "Cursor" },
         CursorIM = { link = "Cursor" },
-        CursorLine = { bg = colors.bg_soft },
+        CursorLine = { bg = colors.bg_dim },
         CursorColumn = { link = "CursorLine" },
         Directory = { fg = colors.blue_hard },
         DiffAdd = { fg = "NONE", bg = colors.green_soft },
@@ -24,31 +24,31 @@ function M.setup(colors, config)
         -- TermCursor = {},
         -- TermCursorNC = {},
         ErrorMsg = { fg = colors.red_hard, bg = "NONE" },
-        VertSplit = { fg = colors.bg_soft, bg = colors.bg_normal, style = "NONE" },
+        VertSplit = { fg = colors.bg_dim, bg = colors.bg_normal, style = "NONE" },
         WinSeparator = { link = "VertSplit" },
-        Folded = { fg = colors.bg_soft, bg = colors.bg_soft },
-        FoldColumn = { fg = colors.bg_soft, bg = "NONE" },
-        SignColumn = { fg = colors.bg_soft, bg = "NONE" },
+        Folded = { fg = colors.bg_dim, bg = colors.bg_soft },
+        FoldColumn = { fg = colors.bg_dim, bg = "NONE" },
+        SignColumn = { fg = colors.bg_dim, bg = "NONE" },
         SignColumnSB = { link = "SignColumn" },
         Substitute = { fg = colors.fg_normal, bg = colors.green_hard },
-        LineNr = { fg = colors.bg_dim },
+        LineNr = { fg = colors.fg_comment },
         CursorLineNr = { fg = colors.green_hard, bg = "NONE", style = "bold" },
         MatchParen = { fg = colors.yellow_hard, bg = "NONE", style = "bold" },
         ModeMsg = { fg = colors.yellow_hard, style = "bold", bg = "NONE" },
-        MsgArea = { fg = colors.fg_soft, bg = "NONE" },
+        MsgArea = { fg = colors.fg_dim, bg = "NONE" },
         -- MsgSeparator                   = {},
         MoreMsg = { fg = colors.green_hard, bg = colors.bg_normal, style = "NONE" },
-        NonText = { fg = colors.bg_soft },
+        NonText = { fg = colors.bg_dim },
         Normal = {
             fg = colors.fg_normal,
             bg = not config.transparent and colors.bg_normal or "NONE",
         },
         NormalNC = { link = "Normal" },
         NormalSB = { link = "Normal" },
-        NormalFloat = { fg = colors.fg_normal, bg = colors.bg_soft },
-        FloatBorder = { fg = colors.fg_soft, bg = colors.bg_dim },
-        Pmenu = { fg = colors.fg_normal, bg = colors.bg_soft },
-        PmenuSel = { fg = "NONE", bg = colors.bg_dim },
+        NormalFloat = { fg = colors.fg_normal, bg = colors.bg_dim },
+        FloatBorder = { fg = colors.fg_dim, bg = colors.bg_dimmer },
+        Pmenu = { fg = colors.fg_normal, bg = colors.bg_dim },
+        PmenuSel = { fg = "NONE", bg = colors.bg_dimmer },
         PmenuSbar = { link = "Pmenu" },
         PmenuThumb = { fg = colors.bg_normal, bg = colors.green_hard },
         Question = { link = "MoreMsg" },
@@ -60,16 +60,16 @@ function M.setup(colors, config)
         SpellCap = { style = "undercurl", guisp = colors.yellow_hard },
         SpellLocal = { style = "undercurl", guisp = colors.yellow_hard },
         SpellRare = { style = "undercurl", guisp = colors.yellow_hard },
-        StatusLine = { fg = colors.fg_soft, bg = colors.bg_dim, style = "NONE" },
-        StatusLineNC = { fg = colors.bg_dim, bg = colors.bg_dim, style = "NONE" },
+        StatusLine = { fg = colors.fg_dim, bg = colors.bg_dimmer, style = "NONE" },
+        StatusLineNC = { fg = colors.bg_dimmer, bg = colors.bg_dim, style = "NONE" },
         TabLine = { bg = colors.bg_dim, fg = colors.fg_dim, style = "NONE" },
         TabLineFill = { bg = colors.bg_normal, style = "NONE" },
-        TabLineSel = { fg = colors.fg_soft, bg = colors.bg_soft, style = "NONE" },
+        TabLineSel = { fg = colors.fg_normal, bg = colors.bg_dimmer, style = "NONE" },
         Title = { fg = colors.green_hard, style = "bold" },
-        Visual = { bg = colors.bg_dim },
+        Visual = { bg = colors.bg_dimmer },
         VisualNOS = { link = "Visual" },
         WarningMsg = { fg = colors.yellow_hard, bg = "NONE" },
-        Whitespace = { fg = colors.bg_soft },
+        Whitespace = { fg = colors.bg_dim },
         WildMenu = { link = "Pmenu" },
 
         Constant = { fg = colors.yellow_hard },
@@ -80,7 +80,7 @@ function M.setup(colors, config)
         Float = { link = "Number" },
 
         Identifier = { fg = colors.yellow_hard },
-        Function = { fg = colors.blue_soft, style = config.functionStyle },
+        Function = { fg = colors.blue_hard, style = config.functionStyle },
         Method = { link = "Function" },
         Statement = { fg = colors.purple_hard, style = config.statementStyle },
         -- Conditional = {},
@@ -166,7 +166,7 @@ function M.setup(colors, config)
         DiagnosticUnderlineHint = { style = "undercurl", guisp = colors.teal_hard },
 
         LspSignatureActiveParameter = { fg = colors.yellow_hard },
-        LspCodeLens = { fg = colors.bg_dim },
+        LspCodeLens = { fg = colors.bg_dimmer },
 
         -- ALEErrorSign = {},
         -- ALEWarningSign = {},
@@ -277,7 +277,7 @@ function M.setup(colors, config)
         GitSignsDeleteLn = { fg = "NONE", bg = colors.red_soft },
 
         -- Telescope = {},
-        TelescopeBorder = { fg = colors.bg_dim, bg = colors.bg_normal },
+        TelescopeBorder = { fg = colors.bg_dimmer, bg = colors.bg_normal },
         TelescopeResultsClass = { link = "TSType" },
         TelescopeResultsStruct = { link = "TSType" },
         TelescopeResultsVariable = { link = "TSVariable" },
@@ -346,7 +346,7 @@ function M.setup(colors, config)
         -- TargetWord = {},
 
         -- Floaterm
-        FloatermBorder = { fg = colors.bg_dim, bg = colors.bg_normal },
+        FloatermBorder = { fg = colors.bg_dimmer, bg = colors.bg_normal },
 
         -- NeoVim = {},
         healthError = { fg = colors.red_hard },
@@ -389,19 +389,19 @@ function M.setup(colors, config)
         -- LightspeedGreyWash = {},
 
         -- Cmp
-        CmpDocumentation = { fg = colors.fg_soft, bg = colors.bg_soft },
-        CmpDocumentationBorder = { fg = colors.bg_dim, bg = colors.bg_normal },
+        CmpDocumentation = { fg = colors.fg_dim, bg = colors.bg_dim },
+        CmpDocumentationBorder = { fg = colors.bg_dimmer, bg = colors.bg_normal },
 
         CmpItemAbbr = { fg = colors.fg_normal, bg = "NONE" },
-        CmpItemAbbrDeprecated = { fg = colors.bg_dim, bg = "NONE", style = "strikethrough" },
+        CmpItemAbbrDeprecated = { fg = colors.bg_dimmer, bg = "NONE", style = "strikethrough" },
 
         CmpItemAbbrMatch = { fg = colors.green_hard, bg = "NONE" },
         CmpItemAbbrMatchFuzzy = { link = "CmpItemAbbrMatch" },
 
-        CmpItemKindDefault = { fg = colors.bg_dim, bg = "NONE" },
-        CmpItemMenu = { fg = colors.bg_dim, bg = "NONE" },
+        CmpItemKindDefault = { fg = colors.bg_dimmer, bg = "NONE" },
+        CmpItemMenu = { fg = colors.bg_dimmer, bg = "NONE" },
 
-        CmpItemKindVariable = { fg = colors.fg_soft, bg = "NONE" },
+        CmpItemKindVariable = { fg = colors.fg_dim, bg = "NONE" },
 
         CmpItemKindFunction = { link = "Function" },
         CmpItemKindMethod = { link = "Function" },
@@ -438,11 +438,11 @@ function M.setup(colors, config)
         CmpItemKindColor = {},
 
         -- IndentBlankline
-        IndentBlanklineChar = { fg = colors.bg_soft },
-        IndentBlanklineSpaceChar = { fg = colors.bg_soft },
-        IndentBlanklineSpaceCharBlankline = { fg = colors.bg_soft },
-        IndentBlanklineContextChar = { fg = colors.bg_soft },
-        IndentBlanklineContextStart = { guisp = colors.bg_soft, style = "underline" },
+        IndentBlanklineChar = { fg = colors.bg_dim },
+        IndentBlanklineSpaceChar = { fg = colors.bg_dim },
+        IndentBlanklineSpaceCharBlankline = { fg = colors.bg_dim },
+        IndentBlanklineContextChar = { fg = colors.bg_dim },
+        IndentBlanklineContextStart = { guisp = colors.bg_dim, style = "underline" },
     }
 
     for hl, specs in pairs(config.overrides) do

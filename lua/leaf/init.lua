@@ -28,7 +28,7 @@ M.config = {
     transparent = false,
     colors = {},
     overrides = {},
-    theme = "light", -- or "dark"
+    theme = "light", -- "dark", "lighter", "darker", "lightest", "darkest"
 }
 
 --- update global configuration with user settings
