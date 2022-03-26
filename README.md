@@ -1,3 +1,5 @@
+![Leaf KDE Plasma Logo](https://raw.githubusercontent.com/qewer33/leaf-kde/main/logo.png)
+
 # leaf.nvim
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
