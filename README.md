@@ -2,8 +2,11 @@
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
 
-![leaf-light](assets/screenshot_light.png)
-![leaf-dark](assets/screenshot_dark.png)
+### light
+![leaf-light](assets/screenshot-light.png)
+
+### dark
+![leaf-dark](assets/screenshot-dark.png)
 
 ## Installation
 
@@ -31,21 +34,36 @@ colorscheme leaf
 vim.cmd("colorscheme leaf")
 ```
 
-## Configuration
+## Themes
 
-By default the light theme is used. You can choose the dark theme with:
+The default *light* and *dark* themes exactly match the colors from the corresponding KDE Plasma themes.
+For those of you who prefer more contrast there are also lighter and darker versions available.
+The light theme is the default theme. You can choose a different theme with:
 
 ```lua
-require("leaf").setup({theme = "dark"})
+require("leaf").setup({
+    theme = "light", -- default, alternatives: "dark", "lighter", "darker", "lightest", "darkest"
+})
 
 -- setup must be called before loading
 vim.cmd("colorscheme leaf")
 ```
 
+### lighter
+![leaf-lighter](assets/screenshot-lighter.png)
+
+### dark
+![leaf-darker](assets/screenshot-darker.png)
+
+### lightest
+![leaf-lightest](assets/screenshot-lightest.png)
+
+### darkest
+![leaf-darkest](assets/screenshot-darkest.png)
+
 ## Extras
 
-* [kitty light](extras/kitty_leaf_light.conf)
-* [kitty dark](extras/kitty_leaf_dark.conf)
+Matching kitty themes are available in [extras](extras/).
 
 ## Acknowledgements
 
