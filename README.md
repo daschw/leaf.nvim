@@ -71,3 +71,4 @@ Matching kitty themes are available in [extras](extras/).
 
 - Almost all colors are taken from the [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33. I just ported the konsole colors to Neovim and kitty.
 - I used [kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) by @rebelot as a template, since this is the first theme I made for Neovim.
+- The code in the screenshots is from [JuliaMath/Primes.jl](https://github.com/JuliaMath/Primes.jl).
