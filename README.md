@@ -103,7 +103,7 @@ Supported keywords are `fg`, `bg`, `style`, `guisp` and `link`.
 ```lua
 require("leaf").setup({
     overrides = {
-        Normal = {fg = "black", bg = "#FFFFFF" },
+        Normal = { fg = "black", bg = "#FFFFFF" },
         Comment = { style = "italic" },
         TelescopeBorder = { link = "Normal" },
     },
