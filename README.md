@@ -1,7 +1,8 @@
+![leav.nvim light dark preview](assets/preview.png)
+
 # leaf.nvim
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
-![leav.nvim light dark preview](assets/preview.png)
 
 ## Installation
 
