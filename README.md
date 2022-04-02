@@ -30,14 +30,38 @@ colorscheme leaf
 vim.cmd("colorscheme leaf")
 ```
 
-## Themes
+## Plugin Support
 
-The default *light* and *dark* themes exactly match the colors from the corresponding KDE Plasma themes.
-For those of you who prefer more contrast there are also lighter and darker versions available.
-The light theme is the default theme. You can choose a different theme with:
+- [Nvim cmp](https://github.com/hrsh7th/nvim-cmp)
+- [TreeSitter](https://github.com/nvim-treesitter/nvim-treesitter)
+- [LSP Diagnostics](https://neovim.io/doc/user/lsp.html)
+- [Git Signs](https://github.com/lewis6991/gitsigns.nvim)
+- [Telescope](https://github.com/nvim-telescope/telescope.nvim)
+- [NvimTree](https://github.com/kyazdani42/nvim-tree.lua)
+- [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
+- [Dashboard](https://github.com/glepnir/dashboard-nvim)
+- [Lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [FloaTerm](https://github.com/voldikss/vim-floaterm)
+- [Barbar](https://github.com/romgrk/barbar.nvim)
+
+And many others should _"just work"_!
+
+## Configuration
+
+There is no need to call setup if you are ok with the defaults (light theme).
 
 ```lua
 require("leaf").setup({
+    undercurl = true,
+    commentStyle = "italic",
+    functionStyle = "NONE",
+    keywordStyle = "italic",
+    statementStyle = "bold",
+    typeStyle = "NONE",
+    variablebuiltinStyle = "italic",
+    transparent = false,
+    colors = {},
+    overrides = {},
     theme = "light", -- default, alternatives: "dark", "lighter", "darker", "lightest", "darkest"
 })
 
@@ -45,7 +69,47 @@ require("leaf").setup({
 vim.cmd("colorscheme leaf")
 ```
 
-## Gallery
+### Customize colors
+
+You can change individual colors of leaf.nvim themes by passing a table of `colors` to `setup`.
+Supported keywords can be found [here](lua/leaf/themes.lua) and the theme's colors are defined [here](lua/leaf/colors.lua).
+For example, for comments matching the theme's dark green color you can call setup with:
+
+```lua
+require("leaf").setup({
+    colors = { fg_comment = "#59795f" },
+})
+```
+
+You can achieve the same result by accessing the colors defined for leaf.nvim:
+
+```lua
+local leaf_colors = require("leaf.colors").setup()
+
+require("leaf").setup({
+    colors = { fg_comment = leaf_colors.green_dark },
+})
+```
+
+### Customize highlight groups
+
+With the `overrides` keyword you can customize hl-groups.
+Supported keywords are `fg`, `bg`, `style`, `guisp` and `link`.
+
+```lua
+require("leaf").setup({
+    overrides = {
+        Normal = {fg = "black", bg = "#FFFFFF" },
+        Comment = { style = "italic" },
+        TelescopeBorder = { link = "Normal" },
+    },
+})
+```
+
+## Theme gallery
+
+The default *light* and *dark* themes exactly match the colors from the corresponding KDE Plasma themes.
+For those of you who prefer more contrast there are also lighter and darker versions available.
 
 ### light - lighter - lightest
 <img src="assets/screenshot-light.png" width="30%"></img> <img src="assets/screenshot-lighter.png" width="30%"></img> <img src="assets/screenshot-lightest.png" width="30%"></img>
