@@ -1,10 +1,12 @@
-<img src="https://raw.githubusercontent.com/qewer33/leaf-kde/main/logo.png" width="100%"></img>
+<p align="center">
+    <img src="https://raw.githubusercontent.com/qewer33/leaf-kde/main/logo.png"></img>
+</p>
 
 # leaf.nvim
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
 
-![leav.nvim light dark preview](assets/screenshot.png)
+![leav.nvim light dark preview](assets/preview.png)
 
 ## Installation
 
