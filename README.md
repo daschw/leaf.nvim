@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/qewer33/leaf-kde/main/logo.png"></img>
+    <img src="https://raw.githubusercontent.com/qewer33/leaf-kde/main/logo.png" width="33%"></img>
 </p>
 
 # leaf.nvim
