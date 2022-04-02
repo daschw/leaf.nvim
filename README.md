@@ -45,23 +45,13 @@ require("leaf").setup({
 vim.cmd("colorscheme leaf")
 ```
 
-### light
-![leaf-light](assets/screenshot-light.png)
+## Gallery
 
-### lighter
-![leaf-lighter](assets/screenshot-lighter.png)
+### light - lighter - lightest
+<img src="assets/screenshot-light.png" width="30%"></img> <img src="assets/screenshot-lighter.png" width="30%"></img> <img src="assets/screenshot-lightest.png" width="30%"></img>
 
-### lightest
-![leaf-lightest](assets/screenshot-lightest.png)
-
-### dark
-![leaf-dark](assets/screenshot-dark.png)
-
-### darker
-![leaf-darker](assets/screenshot-darker.png)
-
-### darkest
-![leaf-darkest](assets/screenshot-darkest.png)
+### dark - darker - darkest
+<img src="assets/screenshot-dark.png" width="30%"></img> <img src="assets/screenshot-darker.png" width="30%"></img> <img src="assets/screenshot-darkest.png" width="30%"></img>
 
 ## Extras
 
