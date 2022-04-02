@@ -65,7 +65,8 @@ vim.cmd("colorscheme leaf")
 
 ## Extras
 
-Matching kitty themes are available in [extras](extras/).
+- [Kitty](extras/kitty)
+- [Fish](extras/fish)
 
 ## Acknowledgements
 
