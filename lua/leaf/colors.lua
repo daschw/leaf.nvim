@@ -27,7 +27,7 @@ local leaf_colors = {
     green_light = "#729b79", -- 114,155,121
     green_dark = "#59795f", -- 89,121,95
     green_darker = "#4e6e54", -- 78,110,84
-    green_darkest = "#4e6349", -- 67,99,73
+    green_darkest = "#436349", -- 67,99,73
     -- yellow
     yellow_lightest = "#e2c082", -- 226,192,130
     yellow_lighter = "#d7b577", -- 215,181,119
