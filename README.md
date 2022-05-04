@@ -6,7 +6,7 @@
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
 
-![leav.nvim light dark preview](assets/preview.png)
+![leav.nvim light dark preview](https://user-images.githubusercontent.com/16589944/166641976-daa81242-d2b4-4de0-bdce-f0e69253cd71.png)
 
 ## Installation
 
@@ -116,10 +116,10 @@ The default *light* and *dark* themes exactly match the colors from the correspo
 For those of you who prefer more contrast there are also lighter and darker versions available.
 
 ### light - lighter - lightest
-<img src="assets/screenshot-light.png" width="30%"></img> <img src="assets/screenshot-lighter.png" width="30%"></img> <img src="assets/screenshot-lightest.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/16589944/166642237-0a5bfa8c-e0e9-43b7-bd22-4117a2e25e07.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/166642333-7445b8cc-9be9-4266-bc58-83cae6b3b5a5.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/166642371-a2306844-2c4a-4089-9c11-c1a0413d7157.png" width="30%"></img>
 
 ### dark - darker - darkest
-<img src="assets/screenshot-dark.png" width="30%"></img> <img src="assets/screenshot-darker.png" width="30%"></img> <img src="assets/screenshot-darkest.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/16589944/166642487-7a8f37d7-3db5-4296-90ed-0413dbcd596b.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/166642507-2f50a997-9b35-481b-95f1-88c3dd5a3876.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/166642518-074d2dbf-5ea4-4c99-a0d8-847a36780952.png" width="30%"></img>
 
 ## Extras
 
