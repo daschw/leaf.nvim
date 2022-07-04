@@ -56,10 +56,22 @@ function M.setup(colors, config)
         Search = { fg = colors.bg_normal, bg = colors.green_hard },
         IncSearch = { fg = colors.fg_colored_bg, bg = colors.yellow_hard, style = "NONE" },
         SpecialKey = { link = "NonText" },
-        SpellBad = { style = "undercurl", guisp = colors.red_hard },
-        SpellCap = { style = "undercurl", guisp = colors.yellow_hard },
-        SpellLocal = { style = "undercurl", guisp = colors.yellow_hard },
-        SpellRare = { style = "undercurl", guisp = colors.yellow_hard },
+        SpellBad = {
+            style = config.undercurl and "undercurl" or "NONE",
+            guisp = colors.red_hard,
+        },
+        SpellCap = {
+            style = config.undercurl and "undercurl" or "NONE",
+            guisp = colors.yellow_hard,
+        },
+        SpellLocal = {
+            style = config.undercurl and "undercurl" or "NONE",
+            guisp = colors.yellow_hard,
+        },
+        SpellRare = {
+            style = config.undercurl and "undercurl" or "NONE",
+            guisp = colors.yellow_hard,
+        },
         StatusLine = { fg = colors.fg_dim, bg = colors.bg_dimmer, style = "NONE" },
         StatusLineNC = { fg = colors.bg_dimmer, bg = colors.bg_dim, style = "NONE" },
         TabLine = { bg = colors.bg_dim, fg = colors.fg_dim, style = "NONE" },
@@ -160,10 +172,22 @@ function M.setup(colors, config)
         DiagnosticVirtualTextInfo = { link = "DiagnosticInfo" },
         DiagnosticVirtualTextHint = { link = "DiagnosticHint" },
 
-        DiagnosticUnderlineError = { style = "undercurl", guisp = colors.red_hard },
-        DiagnosticUnderlineWarn = { style = "undercurl", guisp = colors.yellow_hard },
-        DiagnosticUnderlineInfo = { style = "undercurl", guisp = colors.blue_hard },
-        DiagnosticUnderlineHint = { style = "undercurl", guisp = colors.teal_hard },
+        DiagnosticUnderlineError = {
+            style = config.undercurl and "undercurl" or "NONE",
+            guisp = colors.red_hard,
+        },
+        DiagnosticUnderlineWarn = {
+            style = config.undercurl and "undercurl" or "NONE",
+            guisp = colors.yellow_hard,
+        },
+        DiagnosticUnderlineInfo = {
+            style = config.undercurl and "undercurl" or "NONE",
+            guisp = colors.blue_hard,
+        },
+        DiagnosticUnderlineHint = {
+            style = config.undercurl and "undercurl" or "NONE",
+            guisp = colors.teal_hard,
+        },
 
         LspSignatureActiveParameter = { fg = colors.yellow_hard },
         LspCodeLens = { fg = colors.bg_dimmer },
