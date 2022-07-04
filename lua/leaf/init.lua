@@ -18,7 +18,7 @@ end
 
 --- default config
 M.config = {
-    undercurl = true,
+    underlineStyle = "undercurl",
     commentStyle = "italic",
     functionStyle = "NONE",
     keywordStyle = "italic",
