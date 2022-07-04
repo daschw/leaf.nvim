@@ -56,7 +56,7 @@ There is no need to call setup if you are ok with the defaults (light theme).
 
 ```lua
 require("leaf").setup({
-    undercurl = true,
+    underlineStyle = "undercurl",
     commentStyle = "italic",
     functionStyle = "NONE",
     keywordStyle = "italic",

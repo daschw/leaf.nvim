@@ -57,19 +57,19 @@ function M.setup(colors, config)
         IncSearch = { fg = colors.fg_colored_bg, bg = colors.yellow_hard, style = "NONE" },
         SpecialKey = { link = "NonText" },
         SpellBad = {
-            style = config.undercurl and "undercurl" or "NONE",
+            style = config.underlineStyle,
             guisp = colors.red_hard,
         },
         SpellCap = {
-            style = config.undercurl and "undercurl" or "NONE",
+            style = config.underlineStyle,
             guisp = colors.yellow_hard,
         },
         SpellLocal = {
-            style = config.undercurl and "undercurl" or "NONE",
+            style = config.underlineStyle,
             guisp = colors.yellow_hard,
         },
         SpellRare = {
-            style = config.undercurl and "undercurl" or "NONE",
+            style = config.underlineStyle,
             guisp = colors.yellow_hard,
         },
         StatusLine = { fg = colors.fg_dim, bg = colors.bg_dimmer, style = "NONE" },
@@ -173,19 +173,19 @@ function M.setup(colors, config)
         DiagnosticVirtualTextHint = { link = "DiagnosticHint" },
 
         DiagnosticUnderlineError = {
-            style = config.undercurl and "undercurl" or "NONE",
+            style = config.underlineStyle,
             guisp = colors.red_hard,
         },
         DiagnosticUnderlineWarn = {
-            style = config.undercurl and "undercurl" or "NONE",
+            style = config.underlineStyle,
             guisp = colors.yellow_hard,
         },
         DiagnosticUnderlineInfo = {
-            style = config.undercurl and "undercurl" or "NONE",
+            style = config.underlineStyle,
             guisp = colors.blue_hard,
         },
         DiagnosticUnderlineHint = {
-            style = config.undercurl and "undercurl" or "NONE",
+            style = config.underlineStyle,
             guisp = colors.teal_hard,
         },
 
