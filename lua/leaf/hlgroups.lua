@@ -53,7 +53,7 @@ function M.setup(colors, config)
         PmenuThumb = { fg = colors.fg_colored_bg, bg = colors.green_hard },
         Question = { link = "MoreMsg" },
         QuickFixLine = { link = "CursorLine" },
-        Search = { fg = colors.fg_colored_bg, bg = colors.green_hard },
+        Search = { fg = colors.fg_colored_bg, bg = colors.yellow_soft },
         IncSearch = { fg = colors.fg_colored_bg, bg = colors.yellow_hard, style = "NONE" },
         SpecialKey = { link = "NonText" },
         SpellBad = {
