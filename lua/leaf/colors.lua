@@ -66,7 +66,25 @@ local M = {}
 function M.setup(config)
     config = vim.tbl_extend("force", require("leaf").config, config or {})
     local colors = vim.tbl_extend("force", leaf_colors, config.colors)
-    local theme = require("leaf.themes")[config.theme](colors)
+    local brightness = config.theme
+    local contrast = config.contrast
+    if brightness == "auto" then
+        brightness = vim.o.background
+    -- for compatibility with old config
+    elseif brightness == "lighter" then
+        brightness = "light"
+        contrast = "medium"
+    elseif brightness == "lightest" then
+        brightness = "light"
+        contrast = "high"
+    elseif brightness == "darker" then
+        brightness = "dark"
+        contrast = "medium"
+    elseif brightness == "darkest" then
+        brightness = "dark"
+        contrast = "high"
+    end
+    local theme = require("leaf.themes")[brightness][contrast](colors)
     theme = vim.tbl_extend("force", theme, config.colors)
     return vim.tbl_extend("force", theme, colors)
 end
