@@ -47,6 +47,7 @@ vim.cmd("colorscheme leaf")
 - [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [FloaTerm](https://github.com/voldikss/vim-floaterm)
 - [Barbar](https://github.com/romgrk/barbar.nvim)
+- [Neogit](https://github.com/TimUntersberger/neogit)
 
 And many others should _"just work"_!
 

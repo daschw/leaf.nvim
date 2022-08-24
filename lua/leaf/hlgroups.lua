@@ -281,13 +281,26 @@ function M.setup(colors, config)
         -- diffIndexLine = { link = 'Identifier' },
 
         -- Neogit
-        -- NeogitBranch = {},
-        -- NeogitRemote = {},
-        -- NeogitHunkHeader = {},
-        -- NeogitHunkHeaderHighlight = {},
-        -- NeogitDiffContextHighlight = {},
-        -- NeogitDiffDeleteHighlight = {},
-        -- NeogitDiffAddHighlight = {},
+        NeogitNotificationInfo = { link = "DiagnosticInfo" },
+        NeogitNotificationWarning = { link = "DiagnosticWarn" },
+        NeogitNotificationError = { link = "DiagnosticError" },
+        NeogitHunkHeader = { bg = colors.bg_normal, fg = colors.teal_soft, style = "bold" },
+        NeogitHunkHeaderHighlight = {
+            bg = colors.bg_dim,
+            fg = colors.teal_hard,
+            style = "bold",
+        },
+        NeogitDiffContextHighlight = { bg = colors.bg_dim },
+        NeogitDiffDeleteHighlight = {
+            bg = colors.red_hard,
+            fg = colors.fg_colored_bg,
+            style = "bold",
+        },
+        NeogitDiffAddHighlight = {
+            bg = colors.green_hard,
+            fg = colors.fg_colored_bg,
+            style = "bold",
+        },
 
         -- GitGutter
         -- GitGutterAdd = {},
