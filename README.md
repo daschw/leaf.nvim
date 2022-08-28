@@ -125,8 +125,9 @@ For those of you who prefer more contrast there are also lighter and darker vers
 
 ## Extras
 
-- [Kitty](extras/kitty)
 - [Fish](extras/fish)
+- [Kitty](extras/kitty)
+- [Xresources](extras/Xresources)
 
 ## Acknowledgements
 
