@@ -1,0 +1,22 @@
+! leaf-light .Xresources file
+
+*background #e1e4dc
+*foreground #2e2c2f
+
+*color0  #e1e4dc
+*color1  #9d4b53
+*color2  #59795f
+*color3  #a78a58
+*color4  #40739a
+*color5  #715688
+*color6  #3b8187
+*color7  #3c3a3d
+
+*color8  #d3d6ce
+*color9  #ba5860
+*color10 #729b79
+*color11 #ccaa6c
+*color12 #5292c6
+*color13 #8c6aa8
+*color14 #489ca5
+*color15 #2e2c2f
