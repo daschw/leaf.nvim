@@ -127,6 +127,7 @@ For those of you who prefer more contrast there are also lighter and darker vers
 
 - [Fish](extras/fish)
 - [Kitty](extras/kitty)
+- [WezTerm](extras/wezterm)
 - [Xresources](extras/Xresources)
 
 ## Acknowledgements

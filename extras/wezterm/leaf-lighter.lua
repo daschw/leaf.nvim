@@ -1,0 +1,57 @@
+return {
+    foreground = "#211f22",
+    background = "#ecefe8",
+    cursor_bg = "#4e6e54",
+    cursor_fg = "#ecefe8",
+    cursor_border = "#4e6e54",
+    selection_fg = "#ecefe8",
+    selection_bg = "#30767c",
+    scrollbar_thumb = "#5e5c5f",
+    split = "#5e5c5f",
+    ansi = {
+        "#ecefe8",
+        "#924048",
+        "#4e6e54",
+        "#9c7f4d",
+        "#35688f",
+        "#664b7d",
+        "#30767c",
+        "#5e5c5f",
+    },
+    brights = {
+        "#b1b4ac",
+        "#c5636b",
+        "#7da684",
+        "#d7b577",
+        "#5d9dd1",
+        "#9775b3",
+        "#53a7b0",
+        "#211f22",
+    },
+    tab_bar = {
+        inactive_tab_edge = "#5e5c5f",
+        background = "#ecefe8",
+        active_tab = {
+            bg_color = "#b1b4ac",
+            fg_color = "#4e6e54",
+        },
+        inactive_tab = {
+            bg_color = "#ecefe8",
+            fg_color = "#5e5c5f",
+        },
+        inactive_tab_hover = {
+            bg_color = "#b1b4ac",
+            fg_color = "#664b7d",
+            italic = true,
+        },
+        new_tab = {
+            bg_color = "#b1b4ac",
+            fg_color = "#211f22",
+        },
+        new_tab_hover = {
+            bg_color = "#ecefe8",
+            fg_color = "#4e6e54",
+            italic = true,
+        },
+    },
+}
