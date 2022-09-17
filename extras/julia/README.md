@@ -27,7 +27,7 @@ The six leaf themes are:
 - `"leaf darker"`
 - `"leaf darkest"`
 
-To make these changes permanent you can add theme to your julia startup file.
+To make these changes permanent you can add them to your julia startup file.
 
 ```julia
 # ~/.julia/config/startup.jl
