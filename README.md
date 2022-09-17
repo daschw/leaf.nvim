@@ -129,6 +129,7 @@ For those of you who prefer more contrast there are also lighter and darker vers
 - [Kitty](extras/kitty)
 - [WezTerm](extras/wezterm)
 - [Xresources](extras/Xresources)
+- [Julia](extras/julia)
 
 ## Acknowledgements
 
