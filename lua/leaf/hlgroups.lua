@@ -199,7 +199,7 @@ function M.setup(colors, config)
         TSComment = { link = "Comment" },
         TSNote = { link = "Note" },
         TSWarning = { link = "Warning" },
-        TSDanger = { link = "Warning" },
+        TSDanger = { link = "Error" },
         TSConstructor = { link = "Constructor" },
         TSConditional = { link = "Conditional" },
         TSConstant = { link = "Constant" },
