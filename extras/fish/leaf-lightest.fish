@@ -29,7 +29,7 @@ set -g fish_color_redirection $brwhite
 set -g fish_color_end $blue
 set -g fish_color_error $red
 set -g fish_color_param $yellow
-set -g fish_color_comment $white
+set -g fish_color_comment $comment
 set -g fish_color_selection --background=$brgreen
 set -g fish_color_search_match --background=$brgreen
 set -g fish_color_operator $brmagenta

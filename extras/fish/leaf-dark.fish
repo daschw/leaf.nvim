@@ -9,7 +9,7 @@ set -l blue 5292c6
 set -l magenta 8c6aa8
 set -l cyan 489ca5
 set -l white d3d6ce
-set -l brblack 3c3a3d
+set -l brblack 69676a
 set -l brred 9d4b53
 set -l brgreen 59795f
 set -l bryellow a78a58
@@ -29,7 +29,7 @@ set -g fish_color_redirection $brwhite
 set -g fish_color_end $blue
 set -g fish_color_error $red
 set -g fish_color_param $yellow
-set -g fish_color_comment $white
+set -g fish_color_comment $comment
 set -g fish_color_selection --background=$brgreen
 set -g fish_color_search_match --background=$brgreen
 set -g fish_color_operator $brmagenta
