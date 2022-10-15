@@ -74,7 +74,7 @@ function M.setup(colors, config)
 
         Annotation = { fg = colors.purple_soft },
         Attribute = { fg = colors.green_soft },
-        Boolean = { fg = colors.yellow_hard, style = "bold" },
+        Boolean = { fg = colors.red_hard, style = "bold" },
         Character = { link = "String" },
         Conditional = { link = "Keyword" },
         Constant = { fg = colors.yellow_hard },
@@ -90,7 +90,7 @@ function M.setup(colors, config)
         Ignore = { link = "NonText" },
         Include = { link = "KeywordReturn" },
         Keyword = { fg = colors.purple_hard, style = config.keywordStyle },
-        KeywordFunction = { fg = colors.purple_hard, style = config.keywordStyle },
+        KeywordFunction = { link = "Keyword" },
         KeywordOperator = { fg = colors.yellow_hard, style = "bold" },
         KeywordReturn = { fg = colors.teal_hard, style = config.keywordStyle },
         Label = { link = "Constant" },
