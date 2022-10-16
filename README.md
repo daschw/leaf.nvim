@@ -6,7 +6,7 @@
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
 
-![leav.nvim light dark preview](https://user-images.githubusercontent.com/16589944/166641976-daa81242-d2b4-4de0-bdce-f0e69253cd71.png)
+![leav.nvim light dark preview](https://user-images.githubusercontent.com/16589944/196032521-5dbb4faa-abd8-4d3c-bbb6-554a6dd0a55f.png)
 
 ## Installation
 
@@ -119,10 +119,10 @@ The default *light* and *dark* themes exactly match the colors from the correspo
 For those of you who prefer more contrast there are also lighter and darker versions available.
 
 ### light
-<img src="https://user-images.githubusercontent.com/16589944/166642237-0a5bfa8c-e0e9-43b7-bd22-4117a2e25e07.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/166642333-7445b8cc-9be9-4266-bc58-83cae6b3b5a5.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/166642371-a2306844-2c4a-4089-9c11-c1a0413d7157.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/16589944/196032584-46a42f36-50b1-4963-bb2c-4b4a37313e7b.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/196032604-e88d4d8a-91f2-4d65-becb-0c2b7847cb44.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/196032617-3929e935-36bd-4264-8891-7fa5a9b8d775.png" width="30%"></img>
 
 ### dark
-<img src="https://user-images.githubusercontent.com/16589944/166642487-7a8f37d7-3db5-4296-90ed-0413dbcd596b.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/166642507-2f50a997-9b35-481b-95f1-88c3dd5a3876.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/166642518-074d2dbf-5ea4-4c99-a0d8-847a36780952.png" width="30%"></img>
+<img src="https://user-images.githubusercontent.com/16589944/196032555-b8f1ab78-cc4f-498d-95b9-3af0d4454943.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/196032563-cccc02f6-0506-43db-80a5-4cd56e610c57.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/16589944/196032569-1eeaa274-55f9-4d65-8640-fbd45b321784.png" width="30%"></img>
 
 ## Extras
 
