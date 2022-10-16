@@ -48,6 +48,7 @@ vim.cmd("colorscheme leaf")
 - [FloaTerm](https://github.com/voldikss/vim-floaterm)
 - [Barbar](https://github.com/romgrk/barbar.nvim)
 - [Neogit](https://github.com/TimUntersberger/neogit)
+- [SmoothCursor](https://github.com/gen740/SmoothCursor.nvim)
 
 And many others should _"just work"_!
 

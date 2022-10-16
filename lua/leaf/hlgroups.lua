@@ -523,6 +523,16 @@ function M.setup(colors, config)
         IndentBlanklineSpaceCharBlankline = { fg = colors.bg_dim },
         IndentBlanklineContextChar = { fg = colors.bg_dim },
         IndentBlanklineContextStart = { guisp = colors.bg_dim, style = "underline" },
+
+        -- SmoothCursor
+        SmoothCursorRed = { fg = colors.green_hard },
+        SmoothCursorOrange = { fg = colors.green_soft },
+        SmoothCursorYellow = { fg = colors.teal_hard },
+        SmoothCursorGreen = { fg = colors.teal_soft },
+        SmoothCursorAqua = { fg = colors.blue_hard },
+        SmoothCursorBlue = { fg = colors.blue_soft },
+        SmoothCursorPurple = { fg = colors.purple_hard },
+        SmoothCursor = { fg = colors.green_hard, style = "bold" },
     }
 
     for hl, specs in pairs(config.overrides) do
