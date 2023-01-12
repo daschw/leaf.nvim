@@ -1,22 +1,22 @@
 ! leaf-darkest .Xresources file
 
-*background #161417
-*foreground #f7faf3
+*background #121013
+*foreground #fdfff8
 
-*color0  #161417
-*color1  #d06e76
-*color2  #88b18f
-*color3  #e2c082
-*color4  #68a8dc
-*color5  #a280be
-*color6  #5eb2bb
-*color7  #a6a9a1
+*color0  #121013
+*color1  #f4727a
+*color2  #a4dfad
+*color3  #ffea94
+*color4  #76d0ff
+*color5  #c292e8
+*color6  #62d2e1
+*color7  #b7bab2
 
-*color8  #69676a
-*color9  #87353d
-*color10 #436349
-*color11 #917442
-*color12 #2a5d84
-*color13 #5b4072
-*color14 #256b71
-*color15 #f7faf3
+*color8  #585659
+*color9  #633139
+*color10 #27352b
+*color11 #5d4a1c
+*color12 #1c3542
+*color13 #3b2e48
+*color14 #214b4b
+*color15 #fdfff8

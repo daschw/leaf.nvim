@@ -1,22 +1,22 @@
 ! leaf-darker .Xresources file
 
-*background #211f22
-*foreground #ecefe8
+*background #201e21
+*foreground #eff2ea
 
-*color0  #211f22
-*color1  #c5636b
-*color2  #7da684
-*color3  #d7b577
-*color4  #5d9dd1
-*color5  #9775b3
-*color6  #53a7b0
-*color7  #b1b4ac
+*color0  #201e21
+*color1  #d7656d
+*color2  #8bbd93
+*color3  #f1ca80
+*color4  #64b1f2
+*color5  #a77ec8
+*color6  #55b7b9
+*color7  #c5c8c0
 
-*color8  #69676a
-*color9  #924048
-*color10 #4e6e54
+*color8  #585659
+*color9  #803e46
+*color10 #405745
 *color11 #9c7f4d
-*color12 #35688f
-*color13 #664b7d
-*color14 #30767c
-*color15 #ecefe8
+*color12 #2e546e
+*color13 #564268
+*color14 #2e6669
+*color15 #eff2ea

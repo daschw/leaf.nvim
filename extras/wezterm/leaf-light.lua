@@ -19,7 +19,7 @@ return {
         "#3c3a3d",
     },
     brights = {
-        "#a6a9a1",
+        "#b7bab2",
         "#ba5860",
         "#729b79",
         "#ccaa6c",

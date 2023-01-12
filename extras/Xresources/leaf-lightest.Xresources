@@ -1,22 +1,22 @@
 ! leaf-lightest .Xresources file
 
-*background #f7faf3
-*foreground #161417
+*background #fdfff8
+*foreground #121013
 
-*color0  #f7faf3
-*color1  #87353d
-*color2  #436349
-*color3  #917442
-*color4  #2a5d84
-*color5  #5b4072
-*color6  #256b71
-*color7  #69676a
+*color0  #fdfff8
+*color1  #633139
+*color2  #27352b
+*color3  #5d4a1c
+*color4  #1c3542
+*color5  #3b2e48
+*color6  #214b4b
+*color7  #585659
 
-*color8  #a6a9a1
-*color9  #d06e76
-*color10 #88b18f
-*color11 #e2c082
-*color12 #68a8dc
-*color13 #a280be
-*color14 #5eb2bb
-*color15 #161417
+*color8  #b7bab2
+*color9  #f4727a
+*color10 #a4dfad
+*color11 #ffea94
+*color12 #76d0ff
+*color13 #c292e8
+*color14 #62d2e1
+*color15 #121013

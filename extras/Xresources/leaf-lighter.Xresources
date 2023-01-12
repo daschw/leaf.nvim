@@ -1,22 +1,22 @@
 ! leaf-lighter .Xresources file
 
-*background #ecefe8
-*foreground #211f22
+*background #eff2ea
+*foreground #201e21
 
-*color0  #ecefe8
-*color1  #924048
-*color2  #4e6e54
+*color0  #eff2ea
+*color1  #803e46
+*color2  #405745
 *color3  #9c7f4d
-*color4  #35688f
-*color5  #664b7d
-*color6  #30767c
-*color7  #5e5c5f
+*color4  #2e546e
+*color5  #564268
+*color6  #2e6669
+*color7  #4a484b
 
-*color8  #a6a9a1
-*color9  #c5636b
-*color10 #7da684
-*color11 #d7b577
-*color12 #5d9dd1
-*color13 #9775b3
-*color14 #53a7b0
-*color15 #211f22
+*color8  #b7bab2
+*color9  #d7656d
+*color10 #8bbd93
+*color11 #f1ca80
+*color12 #64b1f2
+*color13 #a77ec8
+*color14 #55b7b9
+*color15 #201e21

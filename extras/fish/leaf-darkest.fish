@@ -1,24 +1,24 @@
 #!/usr/bin/fish
 
 # terminal colors
-set -l black 161417
-set -l red d06e76
-set -l green 88b18f
-set -l yellow e2c082
-set -l blue 68a8dc
-set -l magenta a280be
-set -l cyan 5eb2bb
-set -l white a6a9a1
-set -l brblack 69676a
-set -l brred 87353d
-set -l brgreen 436349
-set -l bryellow 917442
-set -l brblue 2a5d84
-set -l brmagenta 5b4072
-set -l brcyan 256b71
-set -l brwhite f7faf3
+set -l black 121013
+set -l red f4727a
+set -l green a4dfad
+set -l yellow ffea94
+set -l blue 76d0ff
+set -l magenta c292e8
+set -l cyan 62d2e1
+set -l white b7bab2
+set -l brblack 585659
+set -l brred 633139
+set -l brgreen 27352b
+set -l bryellow 5d4a1c
+set -l brblue 1c3542
+set -l brmagenta 3b2e48
+set -l brcyan 214b4b
+set -l brwhite fdfff8
 
-set -l comment 69676a
+set -l comment 585659
 
 # highlight colors
 set -g fish_color_normal $brwhite

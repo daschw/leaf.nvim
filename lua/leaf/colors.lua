@@ -1,61 +1,61 @@
 local leaf_colors = {
     -- light
-    lightest = "#f7faf3", -- 247,250,243
-    lighter = "#ecefe8", -- 236,239,232
+    lightest = "#fdfff8", -- 253,255,248
+    lighter = "#eff2ea", -- 239,242,234
     light = "#e1e4dc", -- 225,228,220
     light_dim = "#d3d6ce", -- 211,214,206
-    light_dimmer = "#b1b4ac", -- 177,180,172
-    light_dimmest = "#a6a9a1", -- 166,169,161
+    light_dimmer = "#c5c8c0", -- 197,200,192
+    light_dimmest = "#b7bab2", -- 183,186,178
     -- dark
-    darkest = "#161417", -- 22,20,23
-    darker = "#211f22", -- 33,31,34
+    darkest = "#121013", -- 18,16,19
+    darker = "#201e21", -- 32,30,33
     dark = "#2e2c2f", -- 46,44,47
     dark_dim = "#3c3a3d", -- 60,58,61
-    dark_dimmer = "#5e5c5f", -- 94,92,95
-    dark_dimmest = "#69676a", -- 105,103,106
+    dark_dimmer = "#4a484b", -- 74,72,75
+    dark_dimmest = "#585659", -- 88,86,89
 
     -- red
-    red_lightest = "#d06e76", -- 208,110,118
-    red_lighter = "#c5636b", -- 197,99,107
+    red_lightest = "#f4727a", -- 244,114,122
+    red_lighter = "#d7656d", -- 215,101,109
     red_light = "#ba5860", -- 186,88,96
     red_dark = "#9d4b53", -- 157,75,83
-    red_darker = "#924048", -- 146,64,72
-    red_darkest = "#87353d", -- 135,53,61
+    red_darker = "#803e46", -- 128,62,70
+    red_darkest = "#633139", -- 99,49,57
     -- green
-    green_lightest = "#88b18f", -- 136,177,143
-    green_lighter = "#7da684", -- 125,166,132
+    green_lightest = "#a4dfad", -- 164,223,173
+    green_lighter = "#8bbd93", -- 139,189,147
     green_light = "#729b79", -- 114,155,121
     green_dark = "#59795f", -- 89,121,95
-    green_darker = "#4e6e54", -- 78,110,84
-    green_darkest = "#436349", -- 67,99,73
+    green_darker = "#405745", -- 64,87,69
+    green_darkest = "#27352b", -- 39,53,43
     -- yellow
-    yellow_lightest = "#e2c082", -- 226,192,130
-    yellow_lighter = "#d7b577", -- 215,181,119
+    yellow_lightest = "#ffea94", -- 255,234,148
+    yellow_lighter = "#f1ca80", -- 241,202,128
     yellow_light = "#ccaa6c", -- 204,170,108
     yellow_dark = "#a78a58", -- 167,138,88
-    yellow_darker = "#9c7f4d", -- 156,127,77
-    yellow_darkest = "#917442", -- 145,116,66
+    yellow_darker = "#826a44", -- 130,106,68
+    yellow_darkest = "#5d4a1c", -- 93,74,48
     -- blue
-    blue_lightest = "#68a8dc", -- 104,168,220
-    blue_lighter = "#5d9dd1", -- 93,157,209
+    blue_lightest = "#76d0ff", -- 118,208,255
+    blue_lighter = "#64b1f2", -- 100,177,242
     blue_light = "#5292c6", -- 82,146,198
     blue_dark = "#40739a", -- 64,115,154
-    blue_darker = "#35688f", -- 53,104,143
-    blue_darkest = "#2a5d84", -- 42,93,132
+    blue_darker = "#2e546e", -- 46,84,110
+    blue_darkest = "#1c3542", -- 28,53,66
     -- purple
-    purple_lightest = "#a280be", -- 162,128,190
-    purple_lighter = "#9775b3", -- 151,117,179
+    purple_lightest = "#c292e8", -- 194,146,232
+    purple_lighter = "#a77ec8", -- 167,126,200
     purple_light = "#8c6aa8", -- 140,106,168
     purple_dark = "#715688", -- 113,86,136
-    purple_darker = "#664b7d", -- 102,75,125
-    purple_darkest = "#5b4072", -- 91,64,114
+    purple_darker = "#564268", -- 86,66,104
+    purple_darkest = "#3b2e48", -- 59,46,72
     --teal
-    teal_lightest = "#5eb2bb", -- 94,178,187
-    teal_lighter = "#53a7b0", -- 83,167,176
+    teal_lightest = "#62d2e1", -- 98,210,225
+    teal_lighter = "#55b7b9", -- 85,183,195
     teal_light = "#489ca5", -- 72,156,165
     teal_dark = "#3b8187", -- 59,129,135
-    teal_darker = "#30767c", -- 48,118,124
-    teal_darkest = "#256b71", -- 37,107,113
+    teal_darker = "#2e6669", -- 46,102,105
+    teal_darkest = "#214b4b", -- 33,75,75 214b4b
 }
 
 local M = {}
