@@ -10,12 +10,12 @@ set -l magenta a77ec8
 set -l cyan 55b7b9
 set -l white c5c8c0
 set -l brblack 585659
-set -l brred 803e46
-set -l brgreen 405745
-set -l bryellow 9c7f4d
-set -l brblue 2e546e
-set -l brmagenta 564268
-set -l brcyan 2e6669
+set -l brred ba5860
+set -l brgreen 729b79
+set -l bryellow ccaa6c
+set -l brblue 5292c6
+set -l brmagenta 8c6aa8
+set -l brcyan 489ca5
 set -l brwhite eff2ea
 
 set -l comment 585659
