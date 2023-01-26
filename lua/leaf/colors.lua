@@ -55,7 +55,7 @@ local leaf_colors = {
     teal_light = "#489ca5", -- 72,156,165
     teal_dark = "#3b8187", -- 59,129,135
     teal_darker = "#2e6669", -- 46,102,105
-    teal_darkest = "#214b4b", -- 33,75,75 214b4b
+    teal_darkest = "#214b4b", -- 33,75,75
 }
 
 local M = {}
@@ -70,17 +70,16 @@ function M.setup(config)
     local contrast = config.contrast
     if brightness == "auto" then
         brightness = vim.o.background
-    -- for compatibility with old config
-    elseif brightness == "lighter" then
+    elseif brightness == "lighter" then -- for compatibility with old config
         brightness = "light"
         contrast = "medium"
-    elseif brightness == "lightest" then
+    elseif brightness == "lightest" then -- for compatibility with old config
         brightness = "light"
         contrast = "high"
-    elseif brightness == "darker" then
+    elseif brightness == "darker" then -- for compatibility with old config
         brightness = "dark"
         contrast = "medium"
-    elseif brightness == "darkest" then
+    elseif brightness == "darkest" then -- for compatibility with old config
         brightness = "dark"
         contrast = "high"
     end
