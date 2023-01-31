@@ -285,10 +285,15 @@ function M.setup(colors, config)
         -- Dashboard
         ----------------------------------------------------------------------------------------
 
+        DashboardHeader = { fg = colors.green_soft },
+        DashboardFooter = { fg = colors.fg_comment },
+        DashboardProjectTitle = { fg = colors.purple_hard, style = "bold" },
+        DashboardProjectTitleIcon = { fg = colors.purple_hard },
+        DashboardProjectIcon = { fg = colors.purple_soft },
+        DashboardMruTitle = { fg = colors.yellow_hard, style = "bold" },
+        DashboardMruTitleIcon = { fg = colors.yellow_hard },
+        DashboardMruIcon = { fg = colors.yellow_soft },
         DashboardShortCut = { fg = colors.green_hard },
-        DashboardHeader = { fg = colors.red_soft },
-        DashboardCenter = { fg = colors.yellow_hard },
-        DashboardFooter = { fg = colors.teal_hard },
 
         ----------------------------------------------------------------------------------------
         -- LspSaga
