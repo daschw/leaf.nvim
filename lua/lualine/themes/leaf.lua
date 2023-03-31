@@ -10,26 +10,26 @@ leaf.normal = {
 
 leaf.insert = {
     a = { bg = colors.green_soft, fg = colors.bg_normal },
-    b = { bg = colors.bg_normal, fg = colors.green_soft },
+    b = { bg = colors.bg_normal, fg = colors.green_hard },
 }
 
 leaf.command = {
     a = { bg = colors.yellow_soft, fg = colors.bg_normal },
-    b = { bg = colors.bg_normal, fg = colors.yellow_soft },
+    b = { bg = colors.bg_normal, fg = colors.yellow_hard },
 }
 
 leaf.visual = {
     a = { bg = colors.purple_soft, fg = colors.bg_normal },
-    b = { bg = colors.bg_normal, fg = colors.purple_soft },
+    b = { bg = colors.bg_normal, fg = colors.purple_hard },
 }
 
 leaf.replace = {
     a = { bg = colors.red_soft, fg = colors.bg_normal },
-    b = { bg = colors.bg_normal, fg = colors.red_soft },
+    b = { bg = colors.bg_normal, fg = colors.red_hard },
 }
 
 leaf.inactive = {
-    a = { bg = colors.bg_normal, fg = colors.blue_soft },
+    a = { bg = colors.bg_normal, fg = colors.blue_hard },
     b = { bg = colors.bg_normal, fg = colors.bg_soft },
     c = { bg = colors.bg_normal, fg = colors.bg_dim },
 }

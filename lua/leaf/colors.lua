@@ -6,6 +6,9 @@ local leaf_colors = {
     light_dim = "#d3d6ce", -- 211,214,206
     light_dimmer = "#c5c8c0", -- 197,200,192
     light_dimmest = "#b7bab2", -- 183,186,178
+    light_comment = "#a9aca4", -- 169,172,164
+    lighter_comment = "#9b9e96", -- 155,158,150
+    lightest_comment = "#8d9088", -- 141,144,136
     -- dark
     darkest = "#121013", -- 18,16,19
     darker = "#201e21", -- 32,30,33
@@ -13,6 +16,9 @@ local leaf_colors = {
     dark_dim = "#3c3a3d", -- 60,58,61
     dark_dimmer = "#4a484b", -- 74,72,75
     dark_dimmest = "#585659", -- 88,86,89
+    dark_comment = "#666467", -- 102,100,103
+    darker_comment = "#747275", -- 116,114,117
+    darkest_comment = "#828083", -- 130,128,131
 
     -- red
     red_lightest = "#f4727a", -- 244,114,122

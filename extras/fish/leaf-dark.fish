@@ -9,7 +9,7 @@ set -l blue 5292c6
 set -l magenta 8c6aa8
 set -l cyan 489ca5
 set -l white d3d6ce
-set -l brblack 585659
+set -l brblack 666467
 set -l brred 9d4b53
 set -l brgreen 59795f
 set -l bryellow a78a58
@@ -18,7 +18,7 @@ set -l brmagenta 715688
 set -l brcyan 3b8187
 set -l brwhite e1e4dc
 
-set -l comment 585659
+set -l comment 666467
 
 # highlight colors
 set -g fish_color_normal $brwhite
