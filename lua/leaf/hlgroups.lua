@@ -7,11 +7,9 @@ function M.setup(colors, config)
     config = vim.tbl_extend("force", require("leaf").config, config or {})
 
     local hlgroups = {
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Base
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         ColorColumn = { fg = colors.bg_dim, bg = colors.bg_normal },
         Conceal = { fg = colors.bg_dim, bg = "NONE", style = "bold" },
         CurSearch = { fg = colors.fg_colored_bg, bg = colors.purple_soft },
@@ -78,11 +76,9 @@ function M.setup(colors, config)
         WildMenu = { link = "Pmenu" },
         Winbar = { link = "TablineFill" },
         WinbarNC = { link = "Winbar" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Extras
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         SignColumnSB = { link = "SignColumn" },
         NormalSB = { link = "Normal" },
         FloatBorder = { fg = colors.bg_dimmer, bg = colors.bg_normal },
@@ -105,24 +101,22 @@ function M.setup(colors, config)
         healthError = { link = "Error" },
         healthSuccess = { link = "Success" },
         healthWarning = { link = "Warning" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Syntax
-        ----------------------------------------------------------------------------------------
-
-        -- comment -----------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
+        -- comment -------------------------------------------------------------------------
         Comment = { fg = colors.fg_comment, style = config.commentStyle },
-        -- constant ------------------------------------------------------------------ yellow --
+        -- constant -------------------------------------------------------------- yellow --
         Constant = { fg = colors.yellow_hard },
         String = { fg = colors.yellow_soft },
         Character = { link = "String" },
         Number = { link = "Constant" },
         Boolean = { fg = colors.yellow_hard, style = "bold" },
         Float = { link = "Constant" },
-        -- identifier ----------------------------------------------------------------- green --
+        -- identifier ------------------------------------------------------------- green --
         Identifier = { fg = colors.green_soft },
         Function = { fg = colors.green_hard, style = config.functionStyle },
-        -- statement ----------------------------------------------------------------- purple --
+        -- statement ------------------------------------------------------------- purple --
         Statement = { fg = colors.purple_hard, style = config.statementStyle },
         Conditional = { link = "Statement" },
         Repeat = { link = "Statement" },
@@ -130,47 +124,45 @@ function M.setup(colors, config)
         Operator = { link = "Statement" },
         Keyword = { fg = colors.purple_soft, style = config.keywordStyle },
         Exception = { link = "Statement" },
-        -- preproc --------------------------------------------------------------------- blue --
+        -- preproc ----------------------------------------------------------------- blue --
         PreProc = { fg = colors.blue_hard },
         Include = { link = "PreProc" },
         Define = { link = "PreProc" },
         Macro = { link = "PreProc" },
         PreCondit = { link = "PreProc" },
-        -- type ------------------------------------------------------------------------- red --
+        -- type --------------------------------------------------------------------- red --
         Type = { fg = colors.red_hard, style = config.typeStyle },
         StorageClass = { link = "Type" },
         Structure = { link = "Type" },
         Typedef = { link = "Type" },
-        -- special --------------------------------------------------------------------- teal --
+        -- special ----------------------------------------------------------------- teal --
         Special = { fg = colors.teal_hard },
         SpecialChar = { link = "Special" },
         Tag = { link = "Special" },
         Delimiter = { link = "Special" },
         SpecialComment = { link = "Special" },
         Debug = { link = "Special" },
-        -- other -------------------------------------------------------------------------------
+        -- other ---------------------------------------------------------------------------
         Underlined = { fg = colors.teal_hard, style = "underline" },
         Ignore = { link = "NonText" },
         Error = { fg = colors.red_soft, bg = "NONE" },
         Todo = { fg = colors.teal_soft, bg = "NONE" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Treesitter
-        ----------------------------------------------------------------------------------------
-
-        -- comment -----------------------------------------------------------------------------
-        -- constant ------------------------------------------------------------------ yellow --
+        ------------------------------------------------------------------------------------
+        -- comment -------------------------------------------------------------------------
+        -- constant -------------------------------------------------------------- yellow --
         ["@symbol"] = { link = "Boolean" },
         ["@text.math"] = { link = "Constant" },
-        -- identifier ----------------------------------------------------------------- green --
+        -- identifier ------------------------------------------------------------- green --
         ["@text.environment"] = { link = "Identifier" },
-        -- statement ----------------------------------------------------------------- purple --
+        -- statement ------------------------------------------------------------- purple --
         ["@attribute"] = { link = "Keyword" },
-        -- preproc --------------------------------------------------------------------- blue --
-        -- type ------------------------------------------------------------------------- red --
-        -- special --------------------------------------------------------------------- teal --
+        -- preproc ----------------------------------------------------------------- blue --
+        -- type --------------------------------------------------------------------- red --
+        -- special ----------------------------------------------------------------- teal --
         ["@annotation"] = { link = "Tag" },
-        -- other -------------------------------------------------------------------------------
+        -- other ---------------------------------------------------------------------------
         ["@error"] = { link = "Error" },
         ["@none"] = { link = "None" },
         ["@text.strong"] = { link = "Bold" },
@@ -180,11 +172,9 @@ function M.setup(colors, config)
         ["@text.warning"] = { link = "Warning" },
         ["@text.danger"] = { link = "Error" },
         ["@todo"] = { link = "Todo" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Diagnostics
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         LspReferenceText = { fg = colors.fg_colored_bg, bg = colors.yellow_soft },
         LspReferenceRead = { link = "LspReferenceText" },
         LspReferenceWrite = { link = "LspReferenceText" },
@@ -200,28 +190,36 @@ function M.setup(colors, config)
         DiagnosticVirtualTextWarn = { link = "DiagnosticWarn" },
         DiagnosticVirtualTextInfo = { link = "DiagnosticInfo" },
         DiagnosticVirtualTextHint = { link = "DiagnosticHint" },
-        DiagnosticUnderlineError = { style = config.underlineStyle, guisp = colors.red_soft },
-        DiagnosticUnderlineWarn = { style = config.underlineStyle, guisp = colors.yellow_soft },
-        DiagnosticUnderlineInfo = { style = config.underlineStyle, guisp = colors.blue_soft },
-        DiagnosticUnderlineHint = { style = config.underlineStyle, guisp = colors.green_soft },
+        DiagnosticUnderlineError = {
+            style = config.underlineStyle,
+            guisp = colors.red_soft,
+        },
+        DiagnosticUnderlineWarn = {
+            style = config.underlineStyle,
+            guisp = colors.yellow_soft,
+        },
+        DiagnosticUnderlineInfo = {
+            style = config.underlineStyle,
+            guisp = colors.blue_soft,
+        },
+        DiagnosticUnderlineHint = {
+            style = config.underlineStyle,
+            guisp = colors.green_soft,
+        },
         LspSignatureActiveParameter = { fg = colors.yellow_hard },
         LspCodeLens = { fg = colors.bg_dimmer },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Git
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         diffAdded = { fg = colors.green_soft },
         diffRemoved = { fg = colors.red_soft },
         diffDeleted = { fg = colors.red_soft },
         diffChanged = { fg = colors.blue_soft },
         diffOldFile = { fg = colors.red_soft },
         diffNewFile = { fg = colors.green_soft },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Neogit
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         NeogitNotificationInfo = { link = "DiagnosticInfo" },
         NeogitNotificationWarning = { link = "DiagnosticWarn" },
         NeogitNotificationError = { link = "DiagnosticError" },
@@ -242,29 +240,23 @@ function M.setup(colors, config)
             fg = colors.fg_colored_bg,
             style = "bold",
         },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- GitSigns
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         GitSignsAdd = { link = "diffAdded" },
         GitSignsChange = { link = "diffChanged" },
         GitSignsDelete = { link = "diffDeleted" },
         GitSignsDeleteLn = { fg = "NONE", bg = colors.red_soft },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Telescope
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         TelescopeBorder = { link = "FloatBorder" },
         TelescopeResultsClass = { link = "Type" },
         TelescopeResultsStruct = { link = "Type" },
         TelescopeResultsVariable = { link = "Variable" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- NvimTree
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         NvimTreeNormal = { link = "Normal" },
         NvimTreeNormalNC = { link = "NormalNC" },
         NvimTreeRootFolder = { fg = colors.red_hard, style = "bold" },
@@ -280,11 +272,9 @@ function M.setup(colors, config)
         NvimTreeExecFile = { fg = colors.green_hard, style = "bold" },
         NvimTreeGitStaged = { fg = colors.green_soft },
         NvimTreeOpenedFile = { fg = colors.teal_hard, style = "italic" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Dashboard
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         DashboardHeader = { fg = colors.green_soft },
         DashboardFooter = { fg = colors.fg_comment },
         DashboardProjectTitle = { fg = colors.purple_hard, style = "bold" },
@@ -294,11 +284,9 @@ function M.setup(colors, config)
         DashboardMruTitleIcon = { fg = colors.yellow_hard },
         DashboardMruIcon = { fg = colors.yellow_soft },
         DashboardShortCut = { fg = colors.green_hard },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- LspSaga
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         LspSagaCodeActionTitle = { link = "FloatBorder" },
         LspSagaCodeActionBorder = { link = "FloatBorder" },
         LspSagaCodeActionTrunCateLine = { link = "LspSagaCodeActionBorder" },
@@ -358,27 +346,35 @@ function M.setup(colors, config)
         OutlineDetail = { link = "Comment" },
         -- all floatwindow of lspsaga
         LspFloatWinNormal = { link = "Normal" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Floaterm
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         FloatermBorder = { link = "FloatBorder" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Barbar
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         BufferCurrent = { fg = colors.green_hard, bg = colors.bg_normal, style = "bold" },
         BufferCurrentIndex = { link = "BufferCurrent" },
-        BufferCurrentMod = { fg = colors.yellow_hard, bg = colors.bg_normal, style = "bold" },
+        BufferCurrentMod = {
+            fg = colors.yellow_hard,
+            bg = colors.bg_normal,
+            style = "bold",
+        },
         BufferCurrentSign = { link = "BufferCurrent" },
-        BufferCurrentTarget = { fg = colors.green_hard, bg = colors.bg_normal, style = "bold" },
+        BufferCurrentTarget = {
+            fg = colors.green_hard,
+            bg = colors.bg_normal,
+            style = "bold",
+        },
         BufferVisible = { fg = colors.fg_normal, bg = colors.bg_normal },
         BufferVisibleIndex = { link = "BufferVisible" },
         BufferVisibleMod = { fg = colors.yellow_soft, bg = colors.bg_normal },
         BufferVisibleSign = { link = "BufferVisible" },
-        BufferVisibleTarget = { fg = colors.fg_normal, bg = colors.bg_normal, style = "bold" },
+        BufferVisibleTarget = {
+            fg = colors.fg_normal,
+            bg = colors.bg_normal,
+            style = "bold",
+        },
         BufferInactive = { fg = colors.fg_dimmer, bg = colors.bg_dim },
         BufferInactiveIndex = { link = "BufferInactive" },
         BufferInactiveMod = { fg = colors.yellow_soft, bg = colors.bg_dim },
@@ -386,15 +382,17 @@ function M.setup(colors, config)
         BufferInactiveTarget = { fg = colors.fg_dimmer, bg = colors.bg_dim, style = "bold" },
         BufferTabpages = { fg = colors.green_hard, bg = colors.bg_normal },
         BufferTabpageFill = { fg = colors.fg_dimmer, bg = colors.bg_normal },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- Cmp
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         CmpDocumentation = { fg = colors.fg_dim, bg = colors.bg_dim },
         CmpDocumentationBorder = { link = "FloatBorder" },
         CmpItemAbbr = { fg = colors.fg_normal, bg = "NONE" },
-        CmpItemAbbrDeprecated = { fg = colors.bg_dimmer, bg = "NONE", style = "strikethrough" },
+        CmpItemAbbrDeprecated = {
+            fg = colors.bg_dimmer,
+            bg = "NONE",
+            style = "strikethrough",
+        },
         CmpItemAbbrMatch = { fg = colors.green_hard, bg = "NONE" },
         CmpItemAbbrMatchFuzzy = { link = "CmpItemAbbrMatch" },
         CmpItemKindDefault = { fg = colors.bg_dimmer, bg = "NONE" },
@@ -424,21 +422,17 @@ function M.setup(colors, config)
         CmpItemKindUnit = {},
         CmpItemKindEvent = {},
         CmpItemKindColor = {},
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- IndentBlankline
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         IndentBlanklineChar = { fg = colors.bg_dim },
         IndentBlanklineSpaceChar = { fg = colors.bg_dim },
         IndentBlanklineSpaceCharBlankline = { fg = colors.bg_dim },
         IndentBlanklineContextChar = { fg = colors.bg_dim },
         IndentBlanklineContextStart = { guisp = colors.bg_dim, style = "underline" },
-
-        ----------------------------------------------------------------------------------------
+        ------------------------------------------------------------------------------------
         -- SmoothCursor
-        ----------------------------------------------------------------------------------------
-
+        ------------------------------------------------------------------------------------
         SmoothCursorRed = { fg = colors.green_hard },
         SmoothCursorOrange = { fg = colors.green_soft },
         SmoothCursorYellow = { fg = colors.teal_hard },

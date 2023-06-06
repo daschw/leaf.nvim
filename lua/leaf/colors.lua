@@ -19,7 +19,6 @@ local leaf_colors = {
     dark_comment = "#666467", -- 102,100,103
     darker_comment = "#747275", -- 116,114,117
     darkest_comment = "#828083", -- 130,128,131
-
     -- red
     red_lightest = "#f4727a", -- 244,114,122
     red_lighter = "#d7656d", -- 215,101,109
