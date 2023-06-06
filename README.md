@@ -13,7 +13,7 @@ Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.c
 There are *low*, *medium* and *high* contrast versions for both the *dark* and the *light* theme.
 The *low* contrast themes exactly match the colors from the corresponding KDE Plasma themes.
 
-<details>
+<details open>
 <summary>julia</summary>
 
 | contrast | dark | light |
