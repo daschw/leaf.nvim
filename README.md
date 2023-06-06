@@ -6,7 +6,7 @@
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
 
-![leav.nvim preview](https://user-images.githubusercontent.com/16589944/218273158-950cb2b4-a616-4678-b5e4-728899ead306.png)
+![leav.nvim preview](https://user-images.githubusercontent.com/16589944/243606765-64c6bd2f-80e2-4b69-9bbf-c6756273eea0.png)
 
 ## Theme gallery
 
@@ -18,9 +18,9 @@ The *low* contrast themes exactly match the colors from the corresponding KDE Pl
 
 | contrast | dark | light |
 |:---:|:---:|:---:|
-| low | ![julia-dark-low](https://user-images.githubusercontent.com/16589944/218272360-bd9377e2-4ff4-4dfc-bc2f-a84dd979e558.png) | ![julia-light-low](https://user-images.githubusercontent.com/16589944/218272382-5b7fc276-9d02-4c78-b341-0b47ffbd33e7.png) |
-| medium | ![julia-dark-medium](https://user-images.githubusercontent.com/16589944/218272377-93de8215-64e7-4111-a157-8b9f91f838f4.png) | ![julia-light-medium](https://user-images.githubusercontent.com/16589944/218272384-3f9536b9-9bec-44c8-a6f1-38e1cef06759.png) |
-| high | ![julia-dark-high](https://user-images.githubusercontent.com/16589944/218272379-011011be-0a51-4dd9-930c-c28650022ec8.png) | ![julia-light-high](https://user-images.githubusercontent.com/16589944/218272393-9fc96302-8c08-49fc-b401-b1b99cda45e3.png) |
+| low | ![julia-dark-low](https://user-images.githubusercontent.com/16589944/243607015-2ad5b4ab-a063-4405-81a4-330c681490c3.png) | ![julia-light-low](https://user-images.githubusercontent.com/16589944/243607527-ea329fd4-448e-48b7-a067-0c7bafa050b2.png) |
+| medium | ![julia-dark-medium](https://user-images.githubusercontent.com/16589944/243607125-d656cc36-20c3-4b83-a593-e52e0ff2075e.png) | ![julia-light-medium](https://user-images.githubusercontent.com/16589944/243607626-9b9a1b02-7994-4b89-aea0-956c113d057b.png) |
+| high | ![julia-dark-high](https://user-images.githubusercontent.com/16589944/243607298-bca03a9e-6e53-4ea9-aa71-8a0c2e1d24ee.png) | ![julia-light-high](https://user-images.githubusercontent.com/16589944/243607731-aeb0eedb-05b9-48f6-96c7-c95cabcf8835.png) |
 
 </details>
 
@@ -29,9 +29,9 @@ The *low* contrast themes exactly match the colors from the corresponding KDE Pl
 
 | contrast | dark | light | 
 |:---:|:---:|:---:|
-| low | ![rust-dark-low](https://user-images.githubusercontent.com/16589944/218272560-79f7fa3f-a33f-4aa0-a26a-f1dae5c61919.png) | ![rust-light-low](https://user-images.githubusercontent.com/16589944/218272585-2b0a778b-93ca-4b5e-ac8d-cfa4b8743ccc.png) |
-| medium | ![rust-dark-medium](https://user-images.githubusercontent.com/16589944/218272568-014dc638-923b-4c0d-af99-c155af388931.png) | ![rust-light-medium](https://user-images.githubusercontent.com/16589944/218272588-fb33f06b-a941-4109-9b2f-c92f3c7553fe.png) |
-| high | ![rust-dark-high](https://user-images.githubusercontent.com/16589944/218272577-2c04e3f5-2537-4647-8cf9-5cb5c9b9a48e.png) | ![rust-light-high](https://user-images.githubusercontent.com/16589944/218272594-5b11710d-bd2b-4dcd-b753-35ca37f9cbaf.png) |
+| low | ![rust-dark-low](https://user-images.githubusercontent.com/16589944/243607973-099b7561-664d-44d1-8072-f07d20e9abd4.png) | ![rust-light-low](https://user-images.githubusercontent.com/16589944/243609560-1ba81f5b-942a-4b85-9219-21e462e2f683.png) |
+| medium | ![rust-dark-medium](https://user-images.githubusercontent.com/16589944/243608119-e2641b99-b5b5-4704-bc60-0994eaedd3bf.png) | ![rust-light-medium](https://user-images.githubusercontent.com/16589944/243609616-be8e1013-894c-4a64-a649-c3cf9b77f9ab.png) |
+| high | ![rust-dark-high](https://user-images.githubusercontent.com/16589944/243608688-f35077fb-bb91-46c6-be2a-6e9e59b567a0.png) | ![rust-light-high](https://user-images.githubusercontent.com/16589944/243609675-93a276b6-2ed2-485c-a58a-a9b057200625.png) |
 
 </details>
 
@@ -40,9 +40,9 @@ The *low* contrast themes exactly match the colors from the corresponding KDE Pl
 
 | contrast | dark | light | 
 |:---:|:---:|:---:|
-| low | ![lua-dark-low](https://user-images.githubusercontent.com/16589944/218272400-79d6ff7e-5d47-42f7-88fd-59ca7bc4db9c.png) | ![lua-light-low](https://user-images.githubusercontent.com/16589944/218272422-3d07ad19-907c-4234-8f59-6590d20ef472.png) |
-| medium | ![lua-dark-medium](https://user-images.githubusercontent.com/16589944/218272405-e1953286-a61c-4770-957a-18152b319693.png) | ![lua-light-medium](https://user-images.githubusercontent.com/16589944/218272427-d87f9246-8c15-4bd2-b387-9931c3e68bb2.png) |
-| high | ![lua-dark-high](https://user-images.githubusercontent.com/16589944/218272418-6a5e5d92-73a1-42dd-872d-d20e58317ae9.png) | ![lua-light-high](https://user-images.githubusercontent.com/16589944/218272432-245d4e8c-59e4-47c5-80d4-1cd3836510ed.png) |
+| low | ![lua-dark-low](https://user-images.githubusercontent.com/16589944/243612445-9ca647ae-e24d-486d-b69e-fd16162df3a2.png) | ![lua-light-low](https://user-images.githubusercontent.com/16589944/243612869-0d068a57-2894-4a3d-a9d7-2741d1c44218.png) |
+| medium | ![lua-dark-medium](https://user-images.githubusercontent.com/16589944/243612552-af088499-5bf4-450e-af67-f13f3fda0539.png) | ![lua-light-medium](https://user-images.githubusercontent.com/16589944/243612934-dcf480ec-0743-4a3b-a7d3-ecedaf7a9f42.png) |
+| high | ![lua-dark-high](https://user-images.githubusercontent.com/16589944/243612709-5c2ac748-4312-464a-b153-bdf04d50b141.png) | ![lua-light-high](https://user-images.githubusercontent.com/16589944/243613017-aaf10311-af9b-4eb2-911b-a821aec2e97a.png) |
 
 </details>
 
@@ -51,9 +51,9 @@ The *low* contrast themes exactly match the colors from the corresponding KDE Pl
 
 | contrast | dark | light | 
 |:---:|:---:|:---:|
-| low | ![python-dark-low](https://user-images.githubusercontent.com/16589944/218272446-673a7938-0e13-429b-816d-7338e542c1dc.png) | ![python-light-low](https://user-images.githubusercontent.com/16589944/218272524-6d9f08b3-0852-4334-a57c-ade17786f2c1.png) |
-| medium | ![python-dark-medium](https://user-images.githubusercontent.com/16589944/218272466-372298fd-f683-4eef-a5a5-1872a25acf33.png) | ![python-light-medium](https://user-images.githubusercontent.com/16589944/218272548-5b107280-142c-4718-868b-f0ce748820ed.png) |
-| high | ![python-dark-high](https://user-images.githubusercontent.com/16589944/218272486-1f12355a-64e4-4fb3-97d4-f0ee53ebc499.png) | ![python-light-high](https://user-images.githubusercontent.com/16589944/218272553-e08a56d2-936c-43ed-a556-ad89d1f93e72.png) |
+| low | ![python-dark-low](https://user-images.githubusercontent.com/16589944/243613169-a45afec6-5304-41d0-a875-a114d7ffb66e.png) | ![python-light-low](https://user-images.githubusercontent.com/16589944/243614167-d214d7a6-f4d0-40f2-82d9-94ac1160b493.png) |
+| medium | ![python-dark-medium](https://user-images.githubusercontent.com/16589944/243613243-26eb983c-a2ea-49ad-9f6f-c22703f18bed.png) | ![python-light-medium](https://user-images.githubusercontent.com/16589944/243614302-20e137f5-c399-4aee-97cd-775ec8383dbc.png) |
+| high | ![python-dark-high](https://user-images.githubusercontent.com/16589944/243613291-127eb524-35b5-47aa-8586-67be76af2133.png) | ![python-light-high](https://user-images.githubusercontent.com/16589944/243614430-a7e04a83-6799-417c-9ab9-738f5b185418.png) |
 
 </details>
 
@@ -62,9 +62,9 @@ The *low* contrast themes exactly match the colors from the corresponding KDE Pl
 
 | contrast | dark | light | 
 |:---:|:---:|:---:|
-| low | ![bash-dark-low](https://user-images.githubusercontent.com/16589944/218272319-c9fee09c-e620-454f-92d0-55cda94edc5f.png) | ![bash-light-low](https://user-images.githubusercontent.com/16589944/218272326-e7745760-9cf6-4417-8960-fc5e820ad16b.png) |
-| medium | ![bash-dark-medium](https://user-images.githubusercontent.com/16589944/218272321-89152712-8441-4e2a-a44e-5ed1ea271308.png) | ![bash-light-medium](https://user-images.githubusercontent.com/16589944/218272334-0803c227-d0ea-4b1d-847a-b80e1c4509af.png) |
-| high | ![bash-dark-high](https://user-images.githubusercontent.com/16589944/218272324-19685496-465c-43cf-b8cd-488f3fbbc87a.png) | ![bash-light-high](https://user-images.githubusercontent.com/16589944/218272341-ef7d9fd5-ccc3-4374-99fc-fcde408f74ff.png) |
+| low | ![bash-dark-low](https://user-images.githubusercontent.com/16589944/243614751-c597d471-71b6-486c-8f87-4cbfd32e7f4d.png) | ![bash-light-low](https://user-images.githubusercontent.com/16589944/243615002-928784be-4cb3-4cea-8341-46e00cd99d68.png) |
+| medium | ![bash-dark-medium](https://user-images.githubusercontent.com/16589944/243614835-376ba51b-36cc-407c-ad56-950acddc987e.png) | ![bash-light-medium](https://user-images.githubusercontent.com/16589944/243615090-342f18c6-5141-4811-9e9f-af89056da395.png) |
+| high | ![bash-dark-high](https://user-images.githubusercontent.com/16589944/243614913-1759ef97-7fa7-41a2-9f56-f9f0c3e4b719.png) | ![bash-light-high](https://user-images.githubusercontent.com/16589944/243615168-4cf35f1c-f4de-4710-95d2-2c7363e813c8.png) |
 
 </details>
 
