@@ -441,6 +441,24 @@ function M.setup(colors, config)
         SmoothCursorBlue = { fg = colors.blue_soft },
         SmoothCursorPurple = { fg = colors.purple_hard },
         SmoothCursor = { fg = colors.green_hard, style = "bold" },
+        ------------------------------------------------------------------------------------
+        -- Notify
+        ------------------------------------------------------------------------------------
+        NotifyERRORBorder = { guifg = colors.red_soft },
+        NotifyWARNBorder = { guifg = colors.yellow_soft },
+        NotifyINFOBorder = { guifg = colors.green_soft },
+        NotifyDEBUGBorder = { guifg = colors.teal_soft },
+        NotifyTRACEBorder = { guifg = colors.purple_soft },
+        NotifyERRORIcon = { guifg = colors.red_hard },
+        NotifyWARNIcon = { guifg = colors.yellow_hard },
+        NotifyINFOIcon = { guifg = colors.green_hard },
+        NotifyDEBUGIcon = { guifg = colors.teal_hard },
+        NotifyTRACEIcon = { guifg = colors.purple_hard },
+        NotifyERRORTitle  = { guifg = colors.red_hard },
+        NotifyWARNTitle = { guifg = colors.yellow_hard },
+        NotifyINFOTitle = { guifg = colors.green_hard },
+        NotifyDEBUGTitle  = { guifg = colors.teal_hard },
+        NotifyTRACETitle  = { guifg = colors.purple_hard },
     }
 
     for hl, specs in pairs(config.overrides) do
