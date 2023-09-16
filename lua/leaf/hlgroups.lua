@@ -459,6 +459,11 @@ function M.setup(colors, config)
         NotifyINFOTitle = { guifg = colors.green_hard },
         NotifyDEBUGTitle  = { guifg = colors.teal_hard },
         NotifyTRACETitle  = { guifg = colors.purple_hard },
+        NotifyERRORBody  = { link = "Normal" },
+        NotifyWARNBody = { link = "Normal" },
+        NotifyINFOBody = { link = "Normal" },
+        NotifyDEBUGBody  = { link = "Normal" },
+        NotifyTRACEBody  = { link = "Normal" },
     }
 
     for hl, specs in pairs(config.overrides) do
