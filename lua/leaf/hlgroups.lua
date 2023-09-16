@@ -458,7 +458,6 @@ function M.setup(colors, config)
         NotifyWARNTitle = { guifg = colors.yellow_hard },
         NotifyINFOTitle = { guifg = colors.green_hard },
         NotifyDEBUGTitle  = { guifg = colors.teal_hard },
-        NotifyTRACETitle  = { guifg = colors.purple_hard },
         NotifyERRORBody  = { link = "Normal" },
         NotifyWARNBody = { link = "Normal" },
         NotifyINFOBody = { link = "Normal" },
