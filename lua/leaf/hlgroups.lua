@@ -107,15 +107,15 @@ function M.setup(colors, config)
         -- comment -------------------------------------------------------------------------
         Comment = { fg = colors.bg3, style = config.commentStyle },
         -- constant -------------------------------------------------------------- yellow --
-        Constant = { fg = colors.brown0 },
+        Constant = { fg = colors.aqua0 },
         String = { fg = colors.yellow0 },
         Character = { link = "String" },
         Number = { link = "Constant" },
-        Boolean = { fg = colors.brown0, style = "bold" },
+        Boolean = { fg = colors.aqua0, style = "bold" },
         Float = { link = "Constant" },
         -- identifier ------------------------------------------------------------- green --
         Identifier = { fg = colors.green0 },
-        Function = { fg = colors.orange0, style = config.functionStyle },
+        Function = { fg = colors.blue0, style = config.functionStyle },
         -- statement ------------------------------------------------------------- purple --
         Statement = { fg = colors.teal0, style = config.statementStyle },
         Conditional = { link = "Statement" },
@@ -125,7 +125,7 @@ function M.setup(colors, config)
         Keyword = { fg = colors.purple0, style = config.keywordStyle },
         Exception = { link = "Statement" },
         -- preproc ----------------------------------------------------------------- blue --
-        PreProc = { fg = colors.blue0 },
+        PreProc = { fg = colors.orange0 },
         Include = { link = "PreProc" },
         Define = { link = "PreProc" },
         Macro = { link = "PreProc" },
@@ -136,7 +136,7 @@ function M.setup(colors, config)
         Structure = { link = "Type" },
         Typedef = { link = "Type" },
         -- special ----------------------------------------------------------------- aqua --
-        Special = { fg = colors.aqua0 },
+        Special = { fg = colors.brown0 },
         SpecialChar = { link = "Special" },
         Tag = { link = "Special" },
         Delimiter = { link = "Special" },
