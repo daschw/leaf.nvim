@@ -114,15 +114,15 @@ function M.setup(colors, config)
         Boolean = { fg = colors.orange0, style = "bold" },
         Float = { link = "Constant" },
         -- identifier ------------------------------------------------------------- green --
-        Identifier = { fg = colors.teal0 },
-        Function = { fg = colors.green0, style = config.functionStyle },
+        Identifier = { fg = colors.green0 },
+        Function = { fg = colors.teal0, style = config.functionStyle },
         -- statement ------------------------------------------------------------- purple --
         Statement = { fg = colors.purple0, style = config.statementStyle },
         Conditional = { link = "Statement" },
         Repeat = { link = "Statement" },
         Label = { link = "Statement" },
         Operator = { link = "Statement" },
-        Keyword = { fg = colors.red0, style = config.keywordStyle },
+        Keyword = { fg = colors.brown0, style = config.keywordStyle },
         Exception = { link = "Statement" },
         -- preproc ----------------------------------------------------------------- blue --
         PreProc = { fg = colors.blue0 },
@@ -131,7 +131,7 @@ function M.setup(colors, config)
         Macro = { link = "PreProc" },
         PreCondit = { link = "PreProc" },
         -- type --------------------------------------------------------------------- red --
-        Type = { fg = colors.brown0, style = config.typeStyle },
+        Type = { fg = colors.red0, style = config.typeStyle },
         StorageClass = { link = "Type" },
         Structure = { link = "Type" },
         Typedef = { link = "Type" },
