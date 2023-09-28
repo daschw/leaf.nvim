@@ -107,11 +107,11 @@ function M.setup(colors, config)
         -- comment -------------------------------------------------------------------------
         Comment = { fg = colors.bg3, style = config.commentStyle },
         -- constant -------------------------------------------------------------- yellow --
-        Constant = { fg = colors.brown0 },
+        Constant = { fg = colors.orange0 },
         String = { fg = colors.yellow0 },
         Character = { link = "String" },
         Number = { link = "Constant" },
-        Boolean = { fg = colors.brown0, style = "bold" },
+        Boolean = { fg = colors.orange0, style = "bold" },
         Float = { link = "Constant" },
         -- identifier ------------------------------------------------------------- green --
         Identifier = { fg = colors.green0 },
@@ -131,7 +131,7 @@ function M.setup(colors, config)
         Macro = { link = "PreProc" },
         PreCondit = { link = "PreProc" },
         -- type --------------------------------------------------------------------- red --
-        Type = { fg = colors.orange0, style = config.typeStyle },
+        Type = { fg = colors.brown0, style = config.typeStyle },
         StorageClass = { link = "Type" },
         Structure = { link = "Type" },
         Typedef = { link = "Type" },
