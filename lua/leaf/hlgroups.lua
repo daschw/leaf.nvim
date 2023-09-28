@@ -117,7 +117,7 @@ function M.setup(colors, config)
         Identifier = { fg = colors.green0 },
         Function = { fg = colors.blue0, style = config.functionStyle },
         -- statement ------------------------------------------------------------- purple --
-        Statement = { fg = colors.teal0, style = config.statementStyle },
+        Statement = { fg = colors.orange0, style = config.statementStyle },
         Conditional = { link = "Statement" },
         Repeat = { link = "Statement" },
         Label = { link = "Statement" },
@@ -125,13 +125,13 @@ function M.setup(colors, config)
         Keyword = { fg = colors.purple0, style = config.keywordStyle },
         Exception = { link = "Statement" },
         -- preproc ----------------------------------------------------------------- blue --
-        PreProc = { fg = colors.orange0 },
+        PreProc = { fg = colors.red0 },
         Include = { link = "PreProc" },
         Define = { link = "PreProc" },
         Macro = { link = "PreProc" },
         PreCondit = { link = "PreProc" },
         -- type --------------------------------------------------------------------- red --
-        Type = { fg = colors.red0, style = config.typeStyle },
+        Type = { fg = colors.teal0, style = config.typeStyle },
         StorageClass = { link = "Type" },
         Structure = { link = "Type" },
         Typedef = { link = "Type" },
