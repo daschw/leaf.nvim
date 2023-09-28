@@ -144,7 +144,7 @@ For example, for comments matching the theme's dark green color you can call set
 
 ```lua
 require("leaf").setup({
-    colors = { fg_comment = "#59795f" },
+    colors = { bg3 = "#59795f" },
 })
 ```
 
@@ -154,7 +154,7 @@ You can achieve the same result by accessing the colors defined for leaf.nvim:
 local leaf_colors = require("leaf.colors").setup()
 
 require("leaf").setup({
-    colors = { fg_comment = leaf_colors.green_dark },
+    colors = { bg3 = leaf_colors.green3 },
 })
 ```
 

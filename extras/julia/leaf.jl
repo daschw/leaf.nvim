@@ -13,7 +13,7 @@ function color_crayons(theme)
         yellow=crayon"#a78a58",
         blue=crayon"#40739a",
         purple=crayon"#8c6aa8",
-        teal=crayon"#3b8187",
+        aqua=crayon"#3b8187",
     )
     theme == "lighter" && return (
         text=crayon"#201e21",
@@ -23,7 +23,7 @@ function color_crayons(theme)
         yellow=crayon"#9c7f4d",
         blue=crayon"#2e546e",
         purple=crayon"#564268",
-        teal=crayon"#2e6669",
+        aqua=crayon"#2e6669",
     )
     theme == "lightest" && return (
         text=crayon"#121013",
@@ -33,7 +33,7 @@ function color_crayons(theme)
         yellow=crayon"#5d4a1c",
         blue=crayon"#1c3542",
         purple=crayon"#3b2e48",
-        teal=crayon"#214b4b",
+        aqua=crayon"#214b4b",
     )
     theme == "dark" && return (
         text=crayon"#e1e4dc",
@@ -43,7 +43,7 @@ function color_crayons(theme)
         yellow=crayon"#ccaa6c",
         blue=crayon"#5292c6",
         purple=crayon"#8c6aa8",
-        teal=crayon"#489ca5",
+        aqua=crayon"#489ca5",
     )
     theme == "darker" && return (
         text=crayon"#eff2ea",
@@ -53,7 +53,7 @@ function color_crayons(theme)
         yellow=crayon"#f1ca80",
         blue=crayon"#64b1f2",
         purple=crayon"#a77ec8",
-        teal=crayon"#55b7b9",
+        aqua=crayon"#55b7b9",
     )
     theme == "darkest" && return (
         text=crayon"#fdfff8",
@@ -63,7 +63,7 @@ function color_crayons(theme)
         yellow=crayon"#ffea94",
         blue=crayon"#76d0ff",
         purple=crayon"#c292e8",
-        teal=crayon"#62d2e1",
+        aqua=crayon"#62d2e1",
     )
 end
 
