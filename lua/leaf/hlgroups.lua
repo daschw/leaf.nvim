@@ -107,22 +107,22 @@ function M.setup(colors, config)
         -- comment -------------------------------------------------------------------------
         Comment = { fg = colors.bg3, style = config.commentStyle },
         -- constant -------------------------------------------------------------- yellow --
-        Constant = { fg = colors.red0 },
+        Constant = { fg = colors.brown0 },
         String = { fg = colors.yellow0 },
         Character = { link = "String" },
         Number = { link = "Constant" },
-        Boolean = { fg = colors.red0, style = "bold" },
+        Boolean = { fg = colors.brown0, style = "bold" },
         Float = { link = "Constant" },
         -- identifier ------------------------------------------------------------- green --
         Identifier = { fg = colors.green0 },
-        Function = { fg = colors.teal0, style = config.functionStyle },
+        Function = { fg = colors.orange0, style = config.functionStyle },
         -- statement ------------------------------------------------------------- purple --
-        Statement = { fg = colors.purple0, style = config.statementStyle },
+        Statement = { fg = colors.teal0, style = config.statementStyle },
         Conditional = { link = "Statement" },
         Repeat = { link = "Statement" },
         Label = { link = "Statement" },
         Operator = { link = "Statement" },
-        Keyword = { fg = colors.brown0, style = config.keywordStyle },
+        Keyword = { fg = colors.purple0, style = config.keywordStyle },
         Exception = { link = "Statement" },
         -- preproc ----------------------------------------------------------------- blue --
         PreProc = { fg = colors.blue0 },
@@ -131,7 +131,7 @@ function M.setup(colors, config)
         Macro = { link = "PreProc" },
         PreCondit = { link = "PreProc" },
         -- type --------------------------------------------------------------------- red --
-        Type = { fg = colors.orange0, style = config.typeStyle },
+        Type = { fg = colors.red0, style = config.typeStyle },
         StorageClass = { link = "Type" },
         Structure = { link = "Type" },
         Typedef = { link = "Type" },
