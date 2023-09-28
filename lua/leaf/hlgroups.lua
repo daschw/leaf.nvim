@@ -107,11 +107,11 @@ function M.setup(colors, config)
         -- comment -------------------------------------------------------------------------
         Comment = { fg = colors.bg3, style = config.commentStyle },
         -- constant -------------------------------------------------------------- yellow --
-        Constant = { fg = colors.aqua0 },
+        Constant = { fg = colors.brown0 },
         String = { fg = colors.yellow0 },
         Character = { link = "String" },
         Number = { link = "Constant" },
-        Boolean = { fg = colors.aqua0, style = "bold" },
+        Boolean = { fg = colors.brown0, style = "bold" },
         Float = { link = "Constant" },
         -- identifier ------------------------------------------------------------- green --
         Identifier = { fg = colors.green0 },
@@ -136,7 +136,7 @@ function M.setup(colors, config)
         Structure = { link = "Type" },
         Typedef = { link = "Type" },
         -- special ----------------------------------------------------------------- aqua --
-        Special = { fg = colors.brown0 },
+        Special = { fg = colors.aqua0 },
         SpecialChar = { link = "Special" },
         Tag = { link = "Special" },
         Delimiter = { link = "Special" },
