@@ -260,20 +260,20 @@ function M.setup(colors, config)
         ------------------------------------------------------------------------------------
         -- NvimTree
         ------------------------------------------------------------------------------------
-        NvimTreeNormal = { link = "Normal" },
-        NvimTreeNormalNC = { link = "NormalNC" },
+        NvimTreeNormal = { fg = colors.fg0 },
+        NvimTreeNormalNC = { link = "NvimTreeNormal" },
         NvimTreeRootFolder = { fg = colors.brown0, style = "bold" },
         NvimTreeGitDirty = { fg = colors.blue0 },
         NvimTreeGitNew = { fg = colors.green0 },
         NvimTreeGitDeleted = { fg = colors.red0 },
-        NvimTreeSpecialFile = { fg = colors.aqua1 },
+        NvimTreeSpecialFile = { fg = colors.aqua0 },
         NvimTreeIndentMarker = { link = "IndentBlanklineChar" },
-        NvimTreeImageFile = { fg = colors.aqua1 },
+        NvimTreeImageFile = { fg = colors.yellow0 },
         NvimTreeSymlink = { link = "Type" },
         NvimTreeFolderName = { link = "Directory" },
         NvimTreeFolderIcon = { link = "Directory" },
-        NvimTreeExecFile = { fg = colors.green1, style = "bold" },
-        NvimTreeGitStaged = { fg = colors.green0 },
+        NvimTreeExecFile = { fg = colors.orange0, style = "bold" },
+        NvimTreeGitStaged = { fg = colors.teal0 },
         NvimTreeOpenedFile = { fg = colors.aqua1, style = "italic" },
         ------------------------------------------------------------------------------------
         -- Dashboard
