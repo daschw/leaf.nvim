@@ -106,32 +106,35 @@ function M.setup(colors, config)
         ------------------------------------------------------------------------------------
         -- comment -------------------------------------------------------------------------
         Comment = { fg = colors.bg3, style = config.commentStyle },
-        -- constant -------------------------------------------------------------- yellow --
-        Constant = { fg = colors.orange0 },
+        -- string ---------------------------------------------------------------- yellow --
         String = { fg = colors.yellow0 },
         Character = { link = "String" },
+        -- constant -------------------------------------------------------------- orange --
+        Constant = { fg = colors.orange0 },
         Number = { link = "Constant" },
-        Boolean = { fg = colors.orange0, style = "bold" },
         Float = { link = "Constant" },
+        Boolean = { fg = colors.orange0, style = "bold" },
         -- identifier ------------------------------------------------------------- green --
         Identifier = { fg = colors.green0 },
+        -- function ---------------------------------------------------------------- blue --
         Function = { fg = colors.blue0, style = config.functionStyle },
-        -- statement ------------------------------------------------------------- purple --
-        Statement = { fg = colors.teal0, style = config.statementStyle },
+        -- statement -------------------------------------------------------------- brown --
+        Statement = { fg = colors.brown0, style = config.statementStyle },
         Conditional = { link = "Statement" },
         Repeat = { link = "Statement" },
         Label = { link = "Statement" },
         Operator = { link = "Statement" },
-        Keyword = { fg = colors.purple0, style = config.keywordStyle },
         Exception = { link = "Statement" },
-        -- preproc ----------------------------------------------------------------- blue --
+        -- keyword --------------------------------------------------------------- purple --
+        Keyword = { fg = colors.purple0, style = config.keywordStyle },
+        -- preproc ------------------------------------------------------------------ red --
         PreProc = { fg = colors.red0 },
         Include = { link = "PreProc" },
         Define = { link = "PreProc" },
         Macro = { link = "PreProc" },
         PreCondit = { link = "PreProc" },
-        -- type --------------------------------------------------------------------- red --
-        Type = { fg = colors.brown0, style = config.typeStyle },
+        -- type -------------------------------------------------------------------- teal --
+        Type = { fg = colors.teal0, style = config.typeStyle },
         StorageClass = { link = "Type" },
         Structure = { link = "Type" },
         Typedef = { link = "Type" },
