@@ -6,65 +6,52 @@
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
 
-![leav.nvim preview](https://user-images.githubusercontent.com/16589944/243606765-64c6bd2f-80e2-4b69-9bbf-c6756273eea0.png)
+![leav.nvim preview](https://github.com/daschw/leaf.nvim/assets/16589944/cf83dec2-f901-4963-abb1-fa074ad78875)
 
 ## Theme gallery
 
 There are *low*, *medium* and *high* contrast versions for both the *dark* and the *light* theme.
 The *low* contrast themes exactly match the colors from the corresponding KDE Plasma themes.
 
+<details>
+<summary>dark - high contrast</summary>
+
+![leaf-darkest](https://github.com/daschw/leaf.nvim/assets/16589944/3d74f586-47bf-4dbd-9850-ee3ff7da0e97)
+
+</details>
+
+<details>
+<summary>dark - medium contrast</summary>
+
+![leaf-darker](https://github.com/daschw/leaf.nvim/assets/16589944/e33bfd9b-26f7-4e40-a05b-a386140bc434)
+
+</details>
+
 <details open>
-<summary>julia</summary>
+<summary>dark - low contrast</summary>
 
-| contrast | dark | light |
-|:---:|:---:|:---:|
-| low | ![julia-dark-low](https://user-images.githubusercontent.com/16589944/243607015-2ad5b4ab-a063-4405-81a4-330c681490c3.png) | ![julia-light-low](https://user-images.githubusercontent.com/16589944/243607527-ea329fd4-448e-48b7-a067-0c7bafa050b2.png) |
-| medium | ![julia-dark-medium](https://user-images.githubusercontent.com/16589944/243607125-d656cc36-20c3-4b83-a593-e52e0ff2075e.png) | ![julia-light-medium](https://user-images.githubusercontent.com/16589944/243607626-9b9a1b02-7994-4b89-aea0-956c113d057b.png) |
-| high | ![julia-dark-high](https://user-images.githubusercontent.com/16589944/243607298-bca03a9e-6e53-4ea9-aa71-8a0c2e1d24ee.png) | ![julia-light-high](https://user-images.githubusercontent.com/16589944/243607731-aeb0eedb-05b9-48f6-96c7-c95cabcf8835.png) |
+![leaf-dark](https://github.com/daschw/leaf.nvim/assets/16589944/ca667914-7c5f-4766-8945-b5efd3f2fc04)
+
+</details>
+
+<details open>
+<summary>light - low contrast</summary>
+
+![leaf-light](https://github.com/daschw/leaf.nvim/assets/16589944/2a31fd88-c427-48eb-b469-33e6112e63b5)
 
 </details>
 
 <details>
-<summary>rust</summary>
+<summary>light - medium contrast</summary>
 
-| contrast | dark | light | 
-|:---:|:---:|:---:|
-| low | ![rust-dark-low](https://user-images.githubusercontent.com/16589944/243607973-099b7561-664d-44d1-8072-f07d20e9abd4.png) | ![rust-light-low](https://user-images.githubusercontent.com/16589944/243609560-1ba81f5b-942a-4b85-9219-21e462e2f683.png) |
-| medium | ![rust-dark-medium](https://user-images.githubusercontent.com/16589944/243608119-e2641b99-b5b5-4704-bc60-0994eaedd3bf.png) | ![rust-light-medium](https://user-images.githubusercontent.com/16589944/243609616-be8e1013-894c-4a64-a649-c3cf9b77f9ab.png) |
-| high | ![rust-dark-high](https://user-images.githubusercontent.com/16589944/243608688-f35077fb-bb91-46c6-be2a-6e9e59b567a0.png) | ![rust-light-high](https://user-images.githubusercontent.com/16589944/243609675-93a276b6-2ed2-485c-a58a-a9b057200625.png) |
+![leaf-lighter](https://github.com/daschw/leaf.nvim/assets/16589944/852ec750-fd99-4c87-a562-265b4fcaf5bf)
 
 </details>
 
-<details>
-<summary>lua</summary>
-
-| contrast | dark | light | 
-|:---:|:---:|:---:|
-| low | ![lua-dark-low](https://user-images.githubusercontent.com/16589944/243612445-9ca647ae-e24d-486d-b69e-fd16162df3a2.png) | ![lua-light-low](https://user-images.githubusercontent.com/16589944/243612869-0d068a57-2894-4a3d-a9d7-2741d1c44218.png) |
-| medium | ![lua-dark-medium](https://user-images.githubusercontent.com/16589944/243612552-af088499-5bf4-450e-af67-f13f3fda0539.png) | ![lua-light-medium](https://user-images.githubusercontent.com/16589944/243612934-dcf480ec-0743-4a3b-a7d3-ecedaf7a9f42.png) |
-| high | ![lua-dark-high](https://user-images.githubusercontent.com/16589944/243612709-5c2ac748-4312-464a-b153-bdf04d50b141.png) | ![lua-light-high](https://user-images.githubusercontent.com/16589944/243613017-aaf10311-af9b-4eb2-911b-a821aec2e97a.png) |
-
-</details>
+![leaf-lightest](https://github.com/daschw/leaf.nvim/assets/16589944/ebbaf708-bdcc-4e6f-bebc-88c2820fcf0e)
 
 <details>
-<summary>python</summary>
-
-| contrast | dark | light | 
-|:---:|:---:|:---:|
-| low | ![python-dark-low](https://user-images.githubusercontent.com/16589944/243613169-a45afec6-5304-41d0-a875-a114d7ffb66e.png) | ![python-light-low](https://user-images.githubusercontent.com/16589944/243614167-d214d7a6-f4d0-40f2-82d9-94ac1160b493.png) |
-| medium | ![python-dark-medium](https://user-images.githubusercontent.com/16589944/243613243-26eb983c-a2ea-49ad-9f6f-c22703f18bed.png) | ![python-light-medium](https://user-images.githubusercontent.com/16589944/243614302-20e137f5-c399-4aee-97cd-775ec8383dbc.png) |
-| high | ![python-dark-high](https://user-images.githubusercontent.com/16589944/243613291-127eb524-35b5-47aa-8586-67be76af2133.png) | ![python-light-high](https://user-images.githubusercontent.com/16589944/243614430-a7e04a83-6799-417c-9ab9-738f5b185418.png) |
-
-</details>
-
-<details>
-<summary>bash</summary>
-
-| contrast | dark | light | 
-|:---:|:---:|:---:|
-| low | ![bash-dark-low](https://user-images.githubusercontent.com/16589944/243614751-c597d471-71b6-486c-8f87-4cbfd32e7f4d.png) | ![bash-light-low](https://user-images.githubusercontent.com/16589944/243615002-928784be-4cb3-4cea-8341-46e00cd99d68.png) |
-| medium | ![bash-dark-medium](https://user-images.githubusercontent.com/16589944/243614835-376ba51b-36cc-407c-ad56-950acddc987e.png) | ![bash-light-medium](https://user-images.githubusercontent.com/16589944/243615090-342f18c6-5141-4811-9e9f-af89056da395.png) |
-| high | ![bash-dark-high](https://user-images.githubusercontent.com/16589944/243614913-1759ef97-7fa7-41a2-9f56-f9f0c3e4b719.png) | ![bash-light-high](https://user-images.githubusercontent.com/16589944/243615168-4cf35f1c-f4de-4710-95d2-2c7363e813c8.png) |
+<summary>light - high contrast</summary>
 
 </details>
 
