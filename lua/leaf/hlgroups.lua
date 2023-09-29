@@ -262,7 +262,7 @@ function M.setup(colors, config)
         ------------------------------------------------------------------------------------
         NvimTreeNormal = { link = "Normal" },
         NvimTreeNormalNC = { link = "NormalNC" },
-        NvimTreeRootFolder = { fg = colors.brown1, style = "bold" },
+        NvimTreeRootFolder = { fg = colors.brown0, style = "bold" },
         NvimTreeGitDirty = { fg = colors.blue0 },
         NvimTreeGitNew = { fg = colors.green0 },
         NvimTreeGitDeleted = { fg = colors.red0 },
