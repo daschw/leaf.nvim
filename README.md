@@ -154,7 +154,7 @@ You can achieve the same result by accessing the colors defined for leaf.nvim:
 local leaf_colors = require("leaf.colors").setup()
 
 require("leaf").setup({
-    colors = { bg3 = leaf_colors.green3 },
+    colors = { bg3 = leaf_colors.leaf_green_3 },
 })
 ```
 
@@ -172,14 +172,6 @@ require("leaf").setup({
     },
 })
 ```
-
-## Extras
-
-- [Fish](extras/fish)
-- [Kitty](extras/kitty)
-- [WezTerm](extras/wezterm)
-- [Xresources](extras/Xresources)
-- [Julia](extras/julia)
 
 ## Acknowledgements
 
