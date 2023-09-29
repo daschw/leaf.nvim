@@ -48,10 +48,10 @@ The *low* contrast themes exactly match the colors from the corresponding KDE Pl
 
 </details>
 
-![leaf-lightest](https://github.com/daschw/leaf.nvim/assets/16589944/ebbaf708-bdcc-4e6f-bebc-88c2820fcf0e)
-
 <details>
 <summary>light - high contrast</summary>
+
+![leaf-lightest](https://github.com/daschw/leaf.nvim/assets/16589944/ebbaf708-bdcc-4e6f-bebc-88c2820fcf0e)
 
 </details>
 
