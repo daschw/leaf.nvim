@@ -429,10 +429,13 @@ function M.setup(colors, config)
         -- IndentBlankline
         ------------------------------------------------------------------------------------
         IndentBlanklineChar = { fg = colors.bg1 },
-        IndentBlanklineSpaceChar = { fg = colors.bg1 },
-        IndentBlanklineSpaceCharBlankline = { fg = colors.bg1 },
-        IndentBlanklineContextChar = { fg = colors.bg1 },
+        IndentBlanklineSpaceChar = { link = "IndentBlanklineChar" },
+        IndentBlanklineSpaceCharBlankline = { link = "IndentBlanklineChar" },
+        IndentBlanklineContextChar = { link = "IndentBlanklineChar" },
         IndentBlanklineContextStart = { guisp = colors.bg1, style = "underline" },
+        IblIndent = { fg = colors.bg1 },
+        IblWhitespace = { link = "IblIndent" },
+        IblScope = { link = "IblIndent" },
         ------------------------------------------------------------------------------------
         -- SmoothCursor
         ------------------------------------------------------------------------------------
