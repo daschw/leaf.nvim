@@ -21,7 +21,7 @@ function M.setup(colors, config)
         Directory = { fg = colors.green1 },
         DiffAdd = { fg = colors.green0, bg = colors.bg0 },
         DiffChange = { fg = colors.blue0, bg = colors.bg0 },
-        DiffDelete = { fg = colors.red0, bg = colors.bg0, style = "none" },
+        DiffDelete = { fg = colors.red0, bg = colors.bg0 },
         DiffText = { link = "Normal" },
         EndOfBuffer = { fg = colors.bg0 },
         TermCursor = { link = "Cursor" },
@@ -209,18 +209,23 @@ function M.setup(colors, config)
         ------------------------------------------------------------------------------------
         -- Neogit
         ------------------------------------------------------------------------------------
-        -- NeogitNotificationInfo = { link = "DiagnosticInfo" },
-        -- NeogitNotificationWarning = { link = "DiagnosticWarn" },
-        -- NeogitNotificationError = { link = "DiagnosticError" },
-        -- NeogitSectionHeader = { bg = colors.bg1, fg = colors.brown0, style = "bold" },
-        -- NeogitSectionHeaderHighlight = { bg = colors.bg0, fg = colors.brown0, style = "bold" },
-        -- NeogitHunkHeader = { bg = colors.bg0, fg = colors.aqua0, style = "bold" },
-        -- NeogitHunkHeaderHighlight = { bg = colors.bg1, fg = colors.aqua1, style = "bold" },
-        -- NeogitDiffContextHighlight = { bg = colors.bg1 },
-        -- NeogitDiffDelete= { fg = colors.red1, style = "bold" },
-        -- NeogitDiffDeleteHighlight = { fg = colors.red0, style = "bold" },
-        -- NeogitDiffAdd= { fg = colors.green1, style = "bold" },
-        -- NeogitDiffAddHighlight = { fg = colors.green0, style = "bold" },
+        NeogitNotificationInfo = { link = "DiagnosticInfo" },
+        NeogitNotificationWarning = { link = "DiagnosticWarn" },
+        NeogitNotificationError = { link = "DiagnosticError" },
+
+        NeogitSectionHeader = { bg = colors.bg0, fg = colors.brown1, style = "bold" },
+        NeogitHunkHeader = { bg = colors.bg0, fg = colors.aqua1, style = "bold" },
+        NeogitDiffContext = { bg = colors.bg0 },
+        NeogitDiffAdd = { fg = colors.green1 },
+        NeogitDiffDelete = { fg = colors.red1 },
+        NeogitDiffHeader = { fg = colors.purple1 },
+
+        NeogitSectionHeaderHighlight = { bg = colors.bg0, fg = colors.brown0, style = "bold" },
+        NeogitHunkHeaderHighlight = { bg = colors.bg1, fg = colors.aqua0, style = "bold" },
+        NeogitDiffContextHighlight = { bg = colors.bg1 },
+        NeogitDiffAddHighlight = { fg = colors.green0, style = "bold" },
+        NeogitDiffDeleteHighlight = { fg = colors.red0, style = "bold" },
+        NeogitDiffHeaderHighlight = { fg = colors.purple0, style = "bold" },
         ------------------------------------------------------------------------------------
         -- GitSigns
         ------------------------------------------------------------------------------------
