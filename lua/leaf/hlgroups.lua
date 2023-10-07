@@ -45,10 +45,7 @@ function M.setup(colors, config)
         MsgSeparator = { link = "Separator" },
         MoreMsg = { fg = colors.green1, bg = colors.bg0, style = "NONE" },
         NonText = { fg = colors.bg1 },
-        Normal = {
-            fg = colors.fg1,
-            bg = not config.transparent and colors.bg0 or "NONE",
-        },
+        Normal = { fg = colors.fg1, bg = not config.transparent and colors.bg0 or "NONE", },
         NormalFloat = { fg = colors.fg1, bg = colors.bg0 },
         NormalNC = { link = "Normal" },
         Pmenu = { fg = colors.fg1, bg = colors.bg1 },
@@ -193,22 +190,10 @@ function M.setup(colors, config)
         DiagnosticVirtualTextWarn = { link = "DiagnosticWarn" },
         DiagnosticVirtualTextInfo = { link = "DiagnosticInfo" },
         DiagnosticVirtualTextHint = { link = "DiagnosticHint" },
-        DiagnosticUnderlineError = {
-            style = config.underlineStyle,
-            guisp = colors.red0,
-        },
-        DiagnosticUnderlineWarn = {
-            style = config.underlineStyle,
-            guisp = colors.yellow0,
-        },
-        DiagnosticUnderlineInfo = {
-            style = config.underlineStyle,
-            guisp = colors.blue0,
-        },
-        DiagnosticUnderlineHint = {
-            style = config.underlineStyle,
-            guisp = colors.teal0,
-        },
+        DiagnosticUnderlineError = { style = config.underlineStyle, guisp = colors.red0, },
+        DiagnosticUnderlineWarn = { style = config.underlineStyle, guisp = colors.yellow0, },
+        DiagnosticUnderlineInfo = { style = config.underlineStyle, guisp = colors.blue0, },
+        DiagnosticUnderlineHint = { style = config.underlineStyle, guisp = colors.teal0, },
         LspSignatureActiveParameter = { fg = colors.teal1 },
         LspCodeLens = { fg = colors.bg2 },
         ------------------------------------------------------------------------------------
@@ -227,22 +212,10 @@ function M.setup(colors, config)
         NeogitNotificationWarning = { link = "DiagnosticWarn" },
         NeogitNotificationError = { link = "DiagnosticError" },
         NeogitHunkHeader = { bg = colors.bg0, fg = colors.aqua0, style = "bold" },
-        NeogitHunkHeaderHighlight = {
-            bg = colors.bg1,
-            fg = colors.aqua1,
-            style = "bold",
-        },
+        NeogitHunkHeaderHighlight = { bg = colors.bg1, fg = colors.aqua1, style = "bold", },
         NeogitDiffContextHighlight = { bg = colors.bg1 },
-        NeogitDiffDeleteHighlight = {
-            bg = colors.red1,
-            fg = colors.bg0,
-            style = "bold",
-        },
-        NeogitDiffAddHighlight = {
-            bg = colors.green1,
-            fg = colors.bg0,
-            style = "bold",
-        },
+        NeogitDiffDeleteHighlight = { fg = colors.red0, style = "bold", },
+        NeogitDiffAddHighlight = { fg = colors.green0, style = "bold", },
         ------------------------------------------------------------------------------------
         -- GitSigns
         ------------------------------------------------------------------------------------
@@ -358,26 +331,14 @@ function M.setup(colors, config)
         ------------------------------------------------------------------------------------
         BufferCurrent = { fg = colors.green1, bg = colors.bg0, style = "bold" },
         BufferCurrentIndex = { link = "BufferCurrent" },
-        BufferCurrentMod = {
-            fg = colors.yellow0,
-            bg = colors.bg0,
-            style = "bold",
-        },
+        BufferCurrentMod = { fg = colors.yellow0, bg = colors.bg0, style = "bold", },
         BufferCurrentSign = { link = "BufferCurrent" },
-        BufferCurrentTarget = {
-            fg = colors.green1,
-            bg = colors.bg0,
-            style = "bold",
-        },
+        BufferCurrentTarget = { fg = colors.green1, bg = colors.bg0, style = "bold", },
         BufferVisible = { fg = colors.fg1, bg = colors.bg0 },
         BufferVisibleIndex = { link = "BufferVisible" },
         BufferVisibleMod = { fg = colors.yellow1, bg = colors.bg0 },
         BufferVisibleSign = { link = "BufferVisible" },
-        BufferVisibleTarget = {
-            fg = colors.fg1,
-            bg = colors.bg0,
-            style = "bold",
-        },
+        BufferVisibleTarget = { fg = colors.fg1, bg = colors.bg0, style = "bold", },
         BufferInactive = { fg = colors.fg2, bg = colors.bg1 },
         BufferInactiveIndex = { link = "BufferInactive" },
         BufferInactiveMod = { fg = colors.brown1, bg = colors.bg1 },
@@ -391,11 +352,7 @@ function M.setup(colors, config)
         CmpDocumentation = { fg = colors.fg0, bg = colors.bg1 },
         CmpDocumentationBorder = { link = "FloatBorder" },
         CmpItemAbbr = { fg = colors.fg1, bg = "NONE" },
-        CmpItemAbbrDeprecated = {
-            fg = colors.bg2,
-            bg = "NONE",
-            style = "strikethrough",
-        },
+        CmpItemAbbrDeprecated = { fg = colors.bg2, bg = "NONE", style = "strikethrough", },
         CmpItemAbbrMatch = { fg = colors.green1, bg = "NONE" },
         CmpItemAbbrMatchFuzzy = { link = "CmpItemAbbrMatch" },
         CmpItemKindDefault = { fg = colors.bg2, bg = "NONE" },
@@ -460,16 +417,16 @@ function M.setup(colors, config)
         NotifyINFOIcon = { fg = colors.teal0 },
         NotifyDEBUGIcon = { fg = colors.orange0 },
         NotifyTRACEIcon = { fg = colors.purple0 },
-        NotifyERRORTitle  = { fg = colors.red0 },
+        NotifyERRORTitle = { fg = colors.red0 },
         NotifyWARNTitle = { fg = colors.yellow0 },
         NotifyINFOTitle = { fg = colors.teal0 },
-        NotifyDEBUGTitle  = { fg = colors.orange0 },
-        NotifyTRACETitle  = { fg = colors.purple0 },
-        NotifyERRORBody  = { link = "Normal" },
+        NotifyDEBUGTitle = { fg = colors.orange0 },
+        NotifyTRACETitle = { fg = colors.purple0 },
+        NotifyERRORBody = { link = "Normal" },
         NotifyWARNBody = { link = "Normal" },
         NotifyINFOBody = { link = "Normal" },
-        NotifyDEBUGBody  = { link = "Normal" },
-        NotifyTRACEBody  = { link = "Normal" },
+        NotifyDEBUGBody = { link = "Normal" },
+        NotifyTRACEBody = { link = "Normal" },
     }
 
     for hl, specs in pairs(config.overrides) do
