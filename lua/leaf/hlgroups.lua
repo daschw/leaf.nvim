@@ -212,20 +212,26 @@ function M.setup(colors, config)
         NeogitNotificationInfo = { link = "DiagnosticInfo" },
         NeogitNotificationWarning = { link = "DiagnosticWarn" },
         NeogitNotificationError = { link = "DiagnosticError" },
-
         NeogitSectionHeader = { bg = colors.bg0, fg = colors.brown1, style = "bold" },
         NeogitHunkHeader = { bg = colors.bg0, fg = colors.aqua1, style = "bold" },
         NeogitDiffContext = { bg = colors.bg0 },
         NeogitDiffAdd = { fg = colors.green1 },
         NeogitDiffDelete = { fg = colors.red1 },
         NeogitDiffHeader = { fg = colors.purple1 },
-
         NeogitSectionHeaderHighlight = { bg = colors.bg0, fg = colors.brown0, style = "bold" },
-        NeogitHunkHeaderHighlight = { bg = colors.bg1, fg = colors.aqua0, style = "bold" },
-        NeogitDiffContextHighlight = { bg = colors.bg1 },
+        NeogitHunkHeaderHighlight = { bg = colors.bg0, fg = colors.aqua0, style = "bold" },
+        NeogitDiffContextHighlight = { bg = colors.bg0 },
         NeogitDiffAddHighlight = { fg = colors.green0, style = "bold" },
         NeogitDiffDeleteHighlight = { fg = colors.red0, style = "bold" },
         NeogitDiffHeaderHighlight = { fg = colors.purple0, style = "bold" },
+        NeogitChangeModified = { fg = colors.purple0 },
+        NeogitChangeAdded = { fg = colors.green0 },
+        NeogitChangeDeleted = { fg = colors.red0 },
+        NeogitChangeRenamed = { fg = colors.orange0 },
+        NeogitChangeUpdated = { fg = colors.teal0 },
+        NeogitChangeCopied = { fg = colors.yellow0 },
+        NeogitChangeBothModified = { fg = colors.blue0 },
+        NeogitChangeNewFile = { fg = colors.aqua0 },
         ------------------------------------------------------------------------------------
         -- GitSigns
         ------------------------------------------------------------------------------------
