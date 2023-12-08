@@ -218,7 +218,11 @@ function M.setup(colors, config)
         NeogitDiffAdd = { fg = colors.green1 },
         NeogitDiffDelete = { fg = colors.red1 },
         NeogitDiffHeader = { fg = colors.purple1 },
-        NeogitSectionHeaderHighlight = { bg = colors.bg0, fg = colors.teal0, style = "bold" },
+        NeogitSectionHeaderHighlight = {
+            bg = colors.bg0,
+            fg = colors.teal0,
+            style = "bold",
+        },
         NeogitHunkHeaderHighlight = { bg = colors.bg0, fg = colors.aqua0, style = "bold" },
         NeogitDiffContextHighlight = { bg = colors.bg0 },
         NeogitDiffAddHighlight = { fg = colors.green0, style = "bold" },
