@@ -19,10 +19,10 @@ function M.setup(colors, config)
         CursorColumn = { link = "CursorLine" },
         CursorLine = { bg = colors.bg1 },
         Directory = { fg = colors.green1 },
-        DiffAdd = { fg = colors.green0, bg = colors.bg0 },
-        DiffChange = { fg = colors.blue0, bg = colors.bg0 },
-        DiffDelete = { fg = colors.red0, bg = colors.bg0 },
-        DiffText = { link = "Normal" },
+        DiffAdd = { bg = colors.green1, fg = colors.fg1 },
+        DiffChange = { bg = colors.bg1 },
+        DiffDelete = { bg = colors.red1, fg = colors.fg1 },
+        DiffText = { bg = colors.aqua1, fg = colors.fg1 },
         EndOfBuffer = { fg = colors.bg0 },
         TermCursor = { link = "Cursor" },
         TermCursorNC = { fg = colors.bg1 },
@@ -173,6 +173,11 @@ function M.setup(colors, config)
         ["@text.warning"] = { link = "Warning" },
         ["@text.danger"] = { link = "Error" },
         ["@todo"] = { link = "Todo" },
+        -- diff --------------------------------------------------------------------- red --
+        ["@text.diff.add"] = { link = "DiffAdd" },
+        ["@text.diff.change"] = { link = "DiffChange" },
+        ["@text.diff.delete"] = { link = "DiffDelete" },
+        ["@text.diff.text"] = { link = "DiffText" },
         ------------------------------------------------------------------------------------
         -- Diagnostics
         ------------------------------------------------------------------------------------
