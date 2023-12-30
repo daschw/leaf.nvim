@@ -312,7 +312,6 @@ function M.setup(colors, config)
         NeoTreeEndOfBuffer = { link = "EndOfBuffer" },
         NeoTreeRootName = { fg = colors.brown0 },
         NeoTreeSymbolicLinkTarget = { fg = colors.auqua0 },
-        NeoTreeTitleBar = { fg = colors.green0, style = "bold" },
         NeoTreeWindowsHidden = { link = "Comment" },
         ------------------------------------------------------------------------------------
         -- Dashboard
