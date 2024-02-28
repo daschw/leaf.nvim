@@ -6,7 +6,7 @@
 
 Neovim colorscheme based on the awesome [Leaf KDE Plasma Theme](https://github.com/qewer33/leaf-kde) by @qewer33.
 
-![leav.nvim preview](https://github.com/daschw/leaf.nvim/assets/16589944/cf83dec2-f901-4963-abb1-fa074ad78875)
+![leav.nvim preview](https://github.com/daschw/leaf.nvim/assets/16589944/948b38df-86c2-4bea-b540-9bdd719479fe)
 
 ## Theme gallery
 
@@ -16,42 +16,42 @@ The *low* contrast themes exactly match the colors from the corresponding KDE Pl
 <details>
 <summary>dark - high contrast</summary>
 
-![leaf-darkest](https://github.com/daschw/leaf.nvim/assets/16589944/3d74f586-47bf-4dbd-9850-ee3ff7da0e97)
+![leaf-darkest](https://github.com/daschw/leaf.nvim/assets/16589944/05679477-4f21-4f28-95a1-83c5ed5e2a0d)
 
 </details>
 
 <details>
 <summary>dark - medium contrast</summary>
 
-![leaf-darker](https://github.com/daschw/leaf.nvim/assets/16589944/e33bfd9b-26f7-4e40-a05b-a386140bc434)
+![leaf-darker](https://github.com/daschw/leaf.nvim/assets/16589944/5e8a0041-6801-4994-a676-bb05508f22d6)
 
 </details>
 
 <details open>
 <summary>dark - low contrast</summary>
 
-![leaf-dark](https://github.com/daschw/leaf.nvim/assets/16589944/ca667914-7c5f-4766-8945-b5efd3f2fc04)
+![leaf-dark](https://github.com/daschw/leaf.nvim/assets/16589944/de311e65-9c28-4f72-bc5f-6e41be2b0198)
 
 </details>
 
 <details open>
 <summary>light - low contrast</summary>
 
-![leaf-light](https://github.com/daschw/leaf.nvim/assets/16589944/2a31fd88-c427-48eb-b469-33e6112e63b5)
+![leaf-light](https://github.com/daschw/leaf.nvim/assets/16589944/2fcb4ab1-c9bc-4312-bd96-53073299faa5)
 
 </details>
 
 <details>
 <summary>light - medium contrast</summary>
 
-![leaf-lighter](https://github.com/daschw/leaf.nvim/assets/16589944/852ec750-fd99-4c87-a562-265b4fcaf5bf)
+![leaf-lighter](https://github.com/daschw/leaf.nvim/assets/16589944/22632854-5818-49c2-918e-2651f64dce2b)
 
 </details>
 
 <details>
 <summary>light - high contrast</summary>
 
-![leaf-lightest](https://github.com/daschw/leaf.nvim/assets/16589944/ebbaf708-bdcc-4e6f-bebc-88c2820fcf0e)
+![leaf-lightest](https://github.com/daschw/leaf.nvim/assets/16589944/ac14223a-bada-4773-ba1a-6ba3320c9afe)
 
 </details>
 
