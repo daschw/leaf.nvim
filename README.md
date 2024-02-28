@@ -105,7 +105,7 @@ There is no need to call setup if you are ok with the defaults (low contrast).
 
 ```lua
 require("leaf").setup({
-    underlineStyle = "undercurl",
+    underlineStyle = "underline",
     commentStyle = "italic",
     functionStyle = "NONE",
     keywordStyle = "italic",
