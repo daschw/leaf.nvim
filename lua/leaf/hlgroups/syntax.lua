@@ -97,6 +97,7 @@ function M.setup(colors, config)
         markdownH4Delimiter = { link = "markdownH4" },
         markdownH5Delimiter = { link = "markdownH5" },
         markdownH6Delimiter = { link = "markdownH6" },
+        markdownLinkText = { fg = colors.teal0, style = config.underlineStyle },
     }
 end
 
