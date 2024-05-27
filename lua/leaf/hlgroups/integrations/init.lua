@@ -15,6 +15,7 @@ function M.setup(colors, config)
         require("leaf.hlgroups.integrations.notify").setup(colors, config),
         require("leaf.hlgroups.integrations.nvimtree").setup(colors, config),
         require("leaf.hlgroups.integrations.smoothcursor").setup(colors, config),
+        require("leaf.hlgroups.integrations.telekasten").setup(colors, config),
         require("leaf.hlgroups.integrations.telescope").setup(colors, config),
         require("leaf.hlgroups.integrations.treesitter").setup(colors, config)
     )
