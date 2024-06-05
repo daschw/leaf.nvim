@@ -5,11 +5,11 @@ local M = {}
 -- @param config config options (optional)
 function M.setup(colors, _)
     return {
-        tkLink = { fg = colors.teal0 },
-        tkAliasedLink = { fg = colors.aqua0 },
-        tkBrackets = { fg = colors.bg3 },
+        tkLink = { link = "markdownLinkText" },
+        tkAliasedLink = { link = "markdownLinkUrl" },
+        tkBrackets = { link = "Whitespace" },
         tkHighlight = { fg = colors.purple0 },
-        tkTag = { fg = colors.green0 },
+        tkTag = { fg = colors.green0, style = "bold" },
     }
 end
 
