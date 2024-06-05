@@ -85,6 +85,7 @@ function M.setup(colors, config)
         rainbow5 = { fg = colors.blue0, style = "bold" },
         rainbow6 = { fg = colors.purple0, style = "bold" },
         markdownCode = { fg = colors.teal0 },
+        markdownCodeBlock = { fg = colors.green0 },
         markdownH1 = { link = "rainbow1" },
         markdownH2 = { link = "rainbow2" },
         markdownH3 = { link = "rainbow3" },
@@ -97,7 +98,13 @@ function M.setup(colors, config)
         markdownH4Delimiter = { link = "markdownH4" },
         markdownH5Delimiter = { link = "markdownH5" },
         markdownH6Delimiter = { link = "markdownH6" },
-        markdownLinkText = { fg = colors.teal0, style = config.underlineStyle },
+        markdownLink = { link = "Whitespace" },
+        markdownLinkDelimiter = { link = "Whitespace" },
+        markdownLinkText = { fg = colors.blue0, style = config.underlineStyle },
+        markdownLinkTextDelimiter = { link = "Whitespace" },
+        markdownUrl = { fg = colors.teal0, style = config.underlineStyle },
+        markdownYamlHead = { fg = colors.yellow0 },
+        yamlPlainScalar = { link = "Statement" },
     }
 end
 
