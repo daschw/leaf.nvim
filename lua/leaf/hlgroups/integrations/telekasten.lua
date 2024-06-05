@@ -6,7 +6,7 @@ local M = {}
 function M.setup(colors, _)
     return {
         tkLink = { link = "markdownLinkText" },
-        tkAliasedLink = { link = "markdownLinkUrl" },
+        tkAliasedLink = { link = "markdownUrl" },
         tkBrackets = { link = "Whitespace" },
         tkHighlight = { fg = colors.purple0 },
         tkTag = { fg = colors.green0, style = "bold" },
